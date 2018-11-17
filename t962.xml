@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/aaronw/kicad/Projects/t962/t962.sch</source>
+    <date>Sat 17 Nov 2018 03:28:42 AM PST</date>
+    <tool>Eeschema 5.0.1-5.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>T-962 Temperature Monitor Board</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2018-11-16</date>
+        <source>t962.sch</source>
+        <comment number="1" value="Copyright © 2018 Aaron Williams"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFC8D3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFCD36</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFCE05</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFDCDD</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFDCE4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFDCEB</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFE4A1</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFE4A8</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFE4AF</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
+      <fields>
+        <field name="MFR">Maxim</field>
+        <field name="MPN">MAX31850KATB+</field>
+        <field name="SPN">MAX31850KATB+-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/products/en/integrated-circuits-ics/interface-sensor-and-detector-interfaces/752?k=MAX31850KATB%2B&amp;k=&amp;pkeyword=MAX31850KATB%2B&amp;pv7=6&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFF20B</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFF212</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEFF219</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF12A45</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <fields>
+        <field name="MFR">Infineon</field>
+        <field name="MPN">BSS214NWH6327XTSA1</field>
+        <field name="SPN">BSS214NWH6327XTSA1CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=BSS214NW&amp;k=&amp;pkeyword=BSS214NW&amp;pv7=2&amp;pv1989=0&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;nstock=1&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-channel MOSFET, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF14845</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF14911</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF15EC9</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">JST</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="SPN">455-2247-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-XH-A-LF-SN/455-2247-ND/1651045</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF175C2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF1A442</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF1A875</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>CP2102N-A01-QFN24</value>
+      <footprint>Aaron:QFN-24-1EP_4x4mm_Pitch0.5mm_rounded_corners</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+      <fields>
+        <field name="MFR">Silicon Labs</field>
+        <field name="MPN">CP2102N-A01-GQFN24R</field>
+        <field name="SPN">336-4737-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/products/en/integrated-circuits-ics/interface-controllers/753?k=CP2102N&amp;k=&amp;pkeyword=CP2102N&amp;pv7=2&amp;pv16=3839&amp;sf=0&amp;FV=ffe002f1&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;nstock=1&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="cp2102n-a01-qfn24" part="CP2102N-A01-QFN24" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF329C9</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>USB_B_Micro</value>
+      <footprint>Aaron:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf</datasheet>
+      <fields>
+        <field name="MFR">Molex</field>
+        <field name="MPN">1050170001</field>
+        <field name="SPN">WM1399CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF32C34</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-666</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
+      <fields>
+        <field name="Category">Circuit Protection</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688</field>
+        <field name="Description">TVS DIODE 5.25V 17V SOT23-6</field>
+        <field name="Digi-Key_PN">497-5235-1-ND</field>
+        <field name="Family">TVS - Diodes</field>
+        <field name="MFR">STMicroelectronics</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="SPN">497-5235-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/products/en/circuit-protection/tvs-diodes/144?k=USBLC6-2sc6&amp;k=&amp;pkeyword=USBLC6-2sc6&amp;pv7=2&amp;s=20842&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=500</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_TVS-Diodes" part="USBLC6-2SC6" description="TVS DIODE 5.25V 17V SOT23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF46FC6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF58006</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF58106</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF7117D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF81F34</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF81F3B</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>2.54mm pin header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF8D1BE</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST_KMR2</value>
+      <footprint>Aaron:SW_SPST_KMR2</footprint>
+      <datasheet>https://www.ckswitches.com/media/1479/kmr2.pdf</datasheet>
+      <fields>
+        <field name="MFR">C&amp;K</field>
+        <field name="MPN">KMR231NG LFS</field>
+        <field name="SPN">CKN10246CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497</field>
+      </fields>
+      <libsource lib="switch_tact_smt" part="SW_SPST_KMR2" description="SPST SMD  KMR2 SMD micro button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFC5790</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST_KMR2</value>
+      <footprint>Aaron:SW_SPST_KMR2</footprint>
+      <libsource lib="switch_tact_smt" part="SW_SPST_KMR2" description="SPST SMD  KMR2 SMD micro button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFC5AD8</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFE540D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>22.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C07834A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>47.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C078548</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C08B075</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C08B552</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C091875</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C097303</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TE 282834-8</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282834&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFR">TE</field>
+        <field name="MPN">282834-8</field>
+        <field name="SPN">A98338-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/products/en?keywords=282834-8</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0FD1C1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LD1117S33CTR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241</field>
+        <field name="Description">IC REG LINEAR 3.3V 800MA SOT223</field>
+        <field name="Digi-Key_PN">497-1241-1-ND</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="MPN">LD1117S33CTR</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_PMIC-Voltage-Regulators-Linear" part="LD1117S33CTR" description="IC REG LINEAR 3.3V 800MA SOT223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1387CB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Aaron" part="MAX31850">
+      <aliases>
+        <alias>MAX31851</alias>
+        <alias>MAX31850KATB+</alias>
+        <alias>MAX31850KATB+T</alias>
+        <alias>MAX31850JATB+</alias>
+        <alias>MAX31850JATB+T</alias>
+        <alias>MAX31850NATB+</alias>
+        <alias>MAX31850NATB+T</alias>
+        <alias>MAX31850TATB+</alias>
+        <alias>MAX31850TATB+T</alias>
+        <alias>MAX31850EATB+</alias>
+        <alias>MAX31850EATB+T</alias>
+        <alias>MAX31851SATB+</alias>
+        <alias>MAX31851SATB+T</alias>
+        <alias>MAX31851RATB+</alias>
+        <alias>MAX31851RATB+T</alias>
+      </aliases>
+      <description>Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</docs>
+      <footprints>
+        <fp>TDFN-10_3x4mm_P0.5mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31850</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="power_in"/>
+        <pin num="3" name="T+" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="DQ" type="BiDi"/>
+        <pin num="6" name="AD0" type="input"/>
+        <pin num="7" name="AD1" type="input"/>
+        <pin num="8" name="AD2" type="input"/>
+        <pin num="9" name="AD3" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS214NW">
+      <description>20V Vds, 1.5A Id, N-channel MOSFET, SOT-323</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</docs>
+      <footprints>
+        <fp>SOT?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS214NW</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cp2102n-a01-qfn24" part="CP2102N-A01-QFN24">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102N-A01-QFN24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RI/CLK" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="input"/>
+        <pin num="4" name="D-" type="input"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_out"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~RSTb" type="input"/>
+        <pin num="11" name="GPIO.3" type="BiDi"/>
+        <pin num="12" name="GPIO.2" type="BiDi"/>
+        <pin num="13" name="GPIO.1" type="BiDi"/>
+        <pin num="14" name="GPIO.0" type="BiDi"/>
+        <pin num="15" name="~SUSPENDb" type="output"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="CTS" type="output"/>
+        <pin num="19" name="RTS" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="DSR" type="input"/>
+        <pin num="23" name="DTR" type="output"/>
+        <pin num="24" name="DCD" type="input"/>
+        <pin num="25" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_PMIC-Voltage-Regulators-Linear" part="LD1117S33CTR">
+      <description>IC REG LINEAR 3.3V 800MA SOT223</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33CTR</field>
+        <field name="Footprint">digikey-footprints:SOT-223</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</field>
+        <field name="Digi-Key_PN">497-1241-1-ND</field>
+        <field name="MPN">LD1117S33CTR</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Voltage Regulators - Linear</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241</field>
+        <field name="Description">IC REG LINEAR 3.3V 800MA SOT223</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_TVS-Diodes" part="USBLC6-2SC6">
+      <description>TVS DIODE 5.25V 17V SOT23-6</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">digikey-footprints:SOT23-6L</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="Digi-Key_PN">497-5235-1-ND</field>
+        <field name="MPN">USBLC6-2SC6</field>
+        <field name="Category">Circuit Protection</field>
+        <field name="Family">TVS - Diodes</field>
+        <field name="DK_Datasheet_Link">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688</field>
+        <field name="Description">TVS DIODE 5.25V 17V SOT23-6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="power_in"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="switch_tact_smt" part="SW_SPST_KMR2">
+      <description>SPST SMD  KMR2 SMD micro button</description>
+      <footprints>
+        <fp>aaron:SW_SPST_KMR2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST_KMR2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Aaron">
+      <uri>/home/aaronw/kicad/library/aaron/Aaron.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="cp2102n-a01-qfn24">
+      <uri>/home/aaronw/kicad/library/aaron/cp2102n-a01-qfn24.lib</uri>
+    </library>
+    <library logical="dk_PMIC-Voltage-Regulators-Linear">
+      <uri>/home/aaronw/kicad/library/digikey/digikey-kicad-library/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib</uri>
+    </library>
+    <library logical="dk_TVS-Diodes">
+      <uri>/home/aaronw/kicad/library/digikey/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib</uri>
+    </library>
+    <library logical="switch_tact_smt">
+      <uri>/home/aaronw/kicad/library/aaron/switch_tact_smt.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/N_ISP">
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C8" pin="1"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="6"/>
+      <node ref="H4" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U6" pin="8"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="11"/>
+      <node ref="J3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U5" pin="25"/>
+      <node ref="J8" pin="6"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J7" pin="5"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="4" name="/RXD0">
+      <node ref="J7" pin="4"/>
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="5" name="/TXD0">
+      <node ref="U5" pin="21"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="6" name="/N_RST">
+      <node ref="J7" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="8" name="Net-(R3-Pad2)">
+      <node ref="U5" pin="9"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="5"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="11" name="Net-(U5-Pad24)">
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="12" name="Net-(U5-Pad23)">
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="13" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="14" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="15" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="16" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="17" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="19" name="Net-(U5-Pad19)">
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="20" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="21" name="Net-(U5-Pad15)">
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="23" name="/D-">
+      <node ref="D1" pin="3"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J10" pin="3"/>
+    </net>
+    <net code="24" name="/D+">
+      <node ref="J8" pin="3"/>
+      <node ref="J10" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="25" name="/T0+">
+      <node ref="J2" pin="7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="26" name="/T3+">
+      <node ref="J2" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="27" name="/T3-">
+      <node ref="U6" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C13" pin="2"/>
+    </net>
+    <net code="28" name="/T2+">
+      <node ref="U4" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="29" name="/T2-">
+      <node ref="C11" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="30" name="/T1+">
+      <node ref="J2" pin="5"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="31" name="/T1-">
+      <node ref="U3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="32" name="/T0-">
+      <node ref="J2" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="33" name="/VIO">
+      <node ref="U5" pin="5"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="34" name="/P_D-">
+      <node ref="D1" pin="4"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="35" name="/P_D+">
+      <node ref="D1" pin="6"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="36" name="+3V3">
+      <node ref="U4" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="37" name="+12V">
+      <node ref="U2" pin="3"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="38" name="/FAN_PWM">
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="39" name="/FAN_PWM_OUT">
+      <node ref="J5" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="40" name="/DQ">
+      <node ref="U4" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U3" pin="5"/>
+    </net>
+  </nets>
+</export>

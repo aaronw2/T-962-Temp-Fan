@@ -1,0 +1,23 @@
+Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
+U5,CP2102N-A01-QFN24,Aaron:QFN-24-1EP_4x4mm_Pitch0.5mm_rounded_corners,1,Silicon Labs,CP2102N-A01-GQFN24R,Digikey,336-4737-1-ND
+SW1;SW2,SW_SPST_KMR2,Aaron:SW_SPST_KMR2,2,C&K,KMR231NG LFS,Digikey,CKN10246CT-ND
+U1;U3;U4;U6,MAX31850KATB+,Aaron:TDFN-10_3x4mm_P0.5mm,4,Maxim,MAX31850KATB+,Digikey,MAX31850KATB+-ND
+J8,USB_B_Micro,Aaron:USB_Micro-B_Molex-105017-0001,1,Molex,1050170001,Digikey,WM1399CT-ND
+C2;C5;C11;C13,0.01uF,Capacitor_SMD:C_0603_1608Metric,4,Samsung,CL10B103KB8NCNC,Digikey,1276-1921-1-ND
+C1;C4;C8;C12;C7;C10,0.1uF,Capacitor_SMD:C_0603_1608Metric,6,Samsung,CL10B104KO8WPNC,Digikey,1276-6582-1-ND
+C3,1uF,Capacitor_SMD:C_0603_1608Metric,1,Samsung,CL10B105MO8NNWC,Digikey,1276-6524-1-ND
+C6;C9,4.7uF,Capacitor_SMD:C_0603_1608Metric,2,Samsung,CL10B475KQ8NQNC,Digikey,1276-2087-1-ND
+J3;J5,B2B-XH-A(LF)(SN),Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical,2,JST,B2B-XH-A(LF)(SN),Digikey,455-2247-ND
+J1,2.54mm pin header,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,-,-,-,-
+J10,Conn_01x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,-,-,-,-
+J7,2.54mm pin header,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,1,-,-,-,-
+H1;H2;H3;H4,MountingHole_Pad,MountingHole:MountingHole_3mm_Pad,4,-,-,-,-
+U2,LD1117S33CTR,Package_TO_SOT_SMD:SOT-223,1,ST Microelectronics,LD1117S33CTR,Digikey,497-1241-1-ND
+Q1,BSS214NW,Package_TO_SOT_SMD:SOT-323_SC-70,1,Infineon,BSS214NWH6327XTSA1,Digikey,BSS214NWH6327XTSA1CT-ND
+D1,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-666,1,STMicroelectronics,USBLC6-2SC6,Digikey,497-5235-1-ND
+R2,100K,Resistor_SMD:R_0603_1608Metric,1,Yageo,AC0603FR-07100KL,Digikey,311-100KLDCT-ND
+R3,1K,Resistor_SMD:R_0603_1608Metric,1,Yageo,RC0603FR-071KL,Digikey,311-1.00KHRCT-ND
+R4,22.1K,Resistor_SMD:R_0603_1608Metric,1,Panasonic,ERJ-3EKF2212V,Digikey,P22.1KHCT-ND
+R1,4.7K,Resistor_SMD:R_0603_1608Metric,1,Yageo,RC0603FR-074K7L,Digikey,311-4.70KHRCT-ND
+R5,47.5K,Resistor_SMD:R_0603_1608Metric,1,Yageo,RC0603FR-0747K5L,Digikey,311-47.5KHRCT-ND
+J2,TE 282834-8,TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal,1,TE,282834-8,Digikey,A98338-ND

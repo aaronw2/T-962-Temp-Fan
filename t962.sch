@@ -21,7 +21,12 @@ P 2250 1500
 F 0 "U1" H 2250 2025 50  0000 C CNN
 F 1 "MAX31850KATB+" H 2250 1934 50  0000 C CNN
 F 2 "Aaron:TDFN-10_3x4mm_P0.5mm" H 2250 1500 50  0001 C CNN
-F 3 "" H 2250 1500 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf" H 2250 1500 50  0001 C CNN
+F 4 "Maxim" H 2250 1500 50  0001 C CNN "MFR"
+F 5 "MAX31850KATB+" H 2250 1500 50  0001 C CNN "MPN"
+F 6 "Digikey" H 2250 1500 50  0001 C CNN "SPR"
+F 7 "MAX31850KATB+-ND" H 2250 1500 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/maxim-integrated/MAX31850KATB/MAX31850KATB-ND/3976056" H 2250 1500 50  0001 C CNN "SPURL"
 	1    2250 1500
 	1    0    0    -1  
 $EndComp
@@ -147,7 +152,12 @@ P 2250 3000
 F 0 "U3" H 2250 3525 50  0000 C CNN
 F 1 "MAX31850KATB+" H 2250 3434 50  0000 C CNN
 F 2 "Aaron:TDFN-10_3x4mm_P0.5mm" H 2250 3000 50  0001 C CNN
-F 3 "" H 2250 3000 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf" H 2250 3000 50  0001 C CNN
+F 4 "Maxim" H 2250 3000 50  0001 C CNN "MFR"
+F 5 "MAX31850KATB+" H 2250 3000 50  0001 C CNN "MPN"
+F 6 "Digikey" H 2250 3000 50  0001 C CNN "SPR"
+F 7 "MAX31850KATB+-ND" H 2250 3000 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/maxim-integrated/MAX31850KATB/MAX31850KATB-ND/3976056" H 2250 3000 50  0001 C CNN "SPURL"
 	1    2250 3000
 	1    0    0    -1  
 $EndComp
@@ -255,7 +265,12 @@ P 2250 4550
 F 0 "U4" H 2250 5075 50  0000 C CNN
 F 1 "MAX31850KATB+" H 2250 4984 50  0000 C CNN
 F 2 "Aaron:TDFN-10_3x4mm_P0.5mm" H 2250 4550 50  0001 C CNN
-F 3 "" H 2250 4550 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf" H 2250 4550 50  0001 C CNN
+F 4 "Maxim" H 2250 4550 50  0001 C CNN "MFR"
+F 5 "MAX31850KATB+" H 2250 4550 50  0001 C CNN "MPN"
+F 6 "Digikey" H 2250 4550 50  0001 C CNN "SPR"
+F 7 "MAX31850KATB+-ND" H 2250 4550 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/maxim-integrated/MAX31850KATB/MAX31850KATB-ND/3976056" H 2250 4550 50  0001 C CNN "SPURL"
 	1    2250 4550
 	1    0    0    -1  
 $EndComp
@@ -1053,7 +1068,12 @@ P 7500 2900
 F 0 "SW2" H 7500 3222 42  0000 C CNN
 F 1 "SW_SPST_KMR2" H 7500 3143 42  0000 C CNN
 F 2 "Aaron:SW_SPST_KMR2" H 7500 2900 50  0001 C CNN
-F 3 "" H 7500 2900 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 7500 2900 50  0001 C CNN
+F 4 "C&K" H 7500 2900 50  0001 C CNN "MFR"
+F 5 "KMR231NG LFS" H 7500 2900 50  0001 C CNN "MPN"
+F 6 "Digikey" H 7500 2900 50  0001 C CNN "SPR"
+F 7 "CKN10246CT-ND" H 7500 2900 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497" H 7500 2900 50  0001 C CNN "SPURL"
 	1    7500 2900
 	1    0    0    -1  
 $EndComp
@@ -1400,15 +1420,19 @@ F 0 "U2" H 4300 2537 60  0000 C CNN
 F 1 "LD1117S33CTR" H 4300 2431 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 4450 2450 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 4450 2550 60  0001 L CNN
-F 4 "497-1241-1-ND" H 4450 2650 60  0001 L CNN "Digi-Key_PN"
+F 4 "STMicroelectronics" H 4250 2250 50  0001 C CNN "MFR"
 F 5 "LD1117S33CTR" H 4450 2750 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4450 2850 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 4450 2950 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 4450 3050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" H 4450 3150 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 800MA SOT223" H 4450 3250 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 4450 3350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4450 3450 60  0001 L CNN "Status"
+F 6 "Digikey" H 4250 2250 50  0001 C CNN "SPR"
+F 7 "497-1241-1-ND" H 4250 2250 50  0001 C CNN "SPN"
+F 8 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" H 4250 2250 50  0001 C CNN "SPURL"
+F 9 "497-1241-1-ND" H 4450 2650 60  0001 L CNN "Digi-Key_PN"
+F 10 "Integrated Circuits (ICs)" H 4450 2850 60  0001 L CNN "Category"
+F 11 "PMIC - Voltage Regulators - Linear" H 4450 2950 60  0001 L CNN "Family"
+F 12 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 4450 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 13 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" H 4450 3150 60  0001 L CNN "DK_Detail_Page"
+F 14 "IC REG LINEAR 3.3V 800MA SOT223" H 4450 3250 60  0001 L CNN "Description"
+F 15 "STMicroelectronics" H 4450 3350 60  0001 L CNN "Manufacturer"
+F 16 "Active" H 4450 3450 60  0001 L CNN "Status"
 	1    4250 2250
 	1    0    0    -1  
 $EndComp

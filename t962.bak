@@ -6,8 +6,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "T-962 Temperature Monitor Board"
-Date "2018-11-16"
-Rev "1.0"
+Date "2018-12-02"
+Rev "1.1"
 Comp ""
 Comment1 "Copyright © 2018 Aaron Williams"
 Comment2 ""
@@ -610,13 +610,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J3
 U 1 1 5BF15EC9
-P 4950 1600
-F 0 "J3" H 4923 1573 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 4923 1482 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical" H 4950 1600 50  0001 C CNN
-F 3 "~" H 4950 1600 50  0001 C CNN
-	1    4950 1600
-	-1   0    0    -1  
+P 4950 1700
+F 0 "J3" H 4923 1673 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 4923 1582 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical" H 4950 1700 50  0001 C CNN
+F 3 "~" H 4950 1700 50  0001 C CNN
+	1    4950 1700
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR05
@@ -643,18 +643,18 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 5BF175C2
-P 5050 3000
-F 0 "J5" H 5023 2973 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 5023 2882 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical" H 5050 3000 50  0001 C CNN
-F 3 "~" H 5050 3000 50  0001 C CNN
-F 4 "JST" H 5050 3000 50  0001 C CNN "MFR"
-F 5 "B2B-XH-A(LF)(SN)" H 5050 3000 50  0001 C CNN "MPN"
-F 6 "Digikey" H 5050 3000 50  0001 C CNN "SPR"
-F 7 "455-2247-ND" H 5050 3000 50  0001 C CNN "SPN"
-F 8 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-XH-A-LF-SN/455-2247-ND/1651045" H 5050 3000 50  0001 C CNN "SPURL"
-	1    5050 3000
-	-1   0    0    -1  
+P 5050 3100
+F 0 "J5" H 5023 3073 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5023 2982 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical" H 5050 3100 50  0001 C CNN
+F 3 "~" H 5050 3100 50  0001 C CNN
+F 4 "JST" H 5050 3100 50  0001 C CNN "MFR"
+F 5 "B2B-XH-A(LF)(SN)" H 5050 3100 50  0001 C CNN "MPN"
+F 6 "Digikey" H 5050 3100 50  0001 C CNN "SPR"
+F 7 "455-2247-ND" H 5050 3100 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-XH-A-LF-SN/455-2247-ND/1651045" H 5050 3100 50  0001 C CNN "SPURL"
+	1    5050 3100
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR015
@@ -868,59 +868,10 @@ Wire Wire Line
 	6750 5400 6750 4950
 Wire Wire Line
 	6750 4950 6500 4950
-$Comp
-L Device:C C7
-U 1 1 5BF58006
-P 7400 3450
-F 0 "C7" H 7515 3496 50  0000 L CNN
-F 1 "0.1uF" H 7515 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 3300 50  0001 C CNN
-F 3 "~" H 7400 3450 50  0001 C CNN
-	1    7400 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5BF58106
-P 6950 3450
-F 0 "C6" H 7065 3496 50  0000 L CNN
-F 1 "4.7uF" H 7065 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6988 3300 50  0001 C CNN
-F 3 "~" H 6950 3450 50  0001 C CNN
-	1    6950 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5BF581D2
-P 6950 3600
-F 0 "#PWR021" H 6950 3350 50  0001 C CNN
-F 1 "GND" H 6955 3427 50  0000 C CNN
-F 2 "" H 6950 3600 50  0001 C CNN
-F 3 "" H 6950 3600 50  0001 C CNN
-	1    6950 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 3300 7400 3300
-Wire Wire Line
-	7400 3600 6950 3600
-Connection ~ 6950 3600
 Wire Wire Line
 	7350 5000 7000 5000
 Wire Wire Line
 	7350 5300 7100 5300
-$Comp
-L power:+5V #PWR022
-U 1 1 5BF66E6E
-P 5200 3900
-F 0 "#PWR022" H 5200 3750 50  0001 C CNN
-F 1 "+5V" H 5215 4073 50  0000 C CNN
-F 2 "" H 5200 3900 50  0001 C CNN
-F 3 "" H 5200 3900 50  0001 C CNN
-	1    5200 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R3
 U 1 1 5BF7117D
@@ -936,57 +887,50 @@ Wire Wire Line
 	7900 4150 7900 4000
 Wire Wire Line
 	7900 4000 7200 4000
-Wire Wire Line
-	7800 3300 7400 3300
-Wire Wire Line
-	7800 3300 7800 4150
-Connection ~ 7400 3300
 $Comp
 L Device:C C10
 U 1 1 5BF81F34
-P 5650 4100
-F 0 "C10" H 5765 4146 50  0000 L CNN
-F 1 "0.1uF" H 5765 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 3950 50  0001 C CNN
-F 3 "~" H 5650 4100 50  0001 C CNN
-	1    5650 4100
+P 5650 4050
+F 0 "C10" H 5765 4096 50  0000 L CNN
+F 1 "0.1uF" H 5765 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 3900 50  0001 C CNN
+F 3 "~" H 5650 4050 50  0001 C CNN
+	1    5650 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C9
 U 1 1 5BF81F3B
-P 5200 4100
-F 0 "C9" H 5315 4146 50  0000 L CNN
-F 1 "4.7uF" H 5315 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 3950 50  0001 C CNN
-F 3 "~" H 5200 4100 50  0001 C CNN
-	1    5200 4100
+P 5200 4050
+F 0 "C9" H 5315 4096 50  0000 L CNN
+F 1 "4.7uF" H 5315 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 3900 50  0001 C CNN
+F 3 "~" H 5200 4050 50  0001 C CNN
+	1    5200 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5BF81F42
-P 5200 4250
-F 0 "#PWR025" H 5200 4000 50  0001 C CNN
-F 1 "GND" H 5205 4077 50  0000 C CNN
-F 2 "" H 5200 4250 50  0001 C CNN
-F 3 "" H 5200 4250 50  0001 C CNN
-	1    5200 4250
+P 5200 4200
+F 0 "#PWR025" H 5200 3950 50  0001 C CNN
+F 1 "GND" H 5205 4027 50  0000 C CNN
+F 2 "" H 5200 4200 50  0001 C CNN
+F 3 "" H 5200 4200 50  0001 C CNN
+	1    5200 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 4250 5200 4250
-Connection ~ 5200 4250
+	5650 4200 5200 4200
+Connection ~ 5200 4200
 Wire Wire Line
-	5200 3900 5200 3950
+	5200 3850 5200 3900
 Wire Wire Line
-	5200 3950 5650 3950
-Connection ~ 5200 3950
+	5200 3900 5650 3900
+Connection ~ 5200 3900
 Wire Wire Line
-	5650 3950 7000 3950
-Wire Wire Line
-	7000 3950 7000 5000
-Connection ~ 5650 3950
+	5650 3900 7000 3900
+Connection ~ 5650 3900
 $Comp
 L Connector_Generic:Conn_01x05 J7
 U 1 1 5BF8D1BE
@@ -1048,70 +992,70 @@ Connection ~ 7900 5850
 $Comp
 L switch_tact_smt:SW_SPST_KMR2 SW1
 U 1 1 5BFC5790
-P 7500 2350
-F 0 "SW1" H 7500 2672 42  0000 C CNN
-F 1 "SW_SPST_KMR2" H 7500 2593 42  0000 C CNN
-F 2 "Aaron:SW_SPST_KMR2" H 7500 2350 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 7500 2350 50  0001 C CNN
-F 4 "C&K" H 7500 2350 50  0001 C CNN "MFR"
-F 5 "KMR231NG LFS" H 7500 2350 50  0001 C CNN "MPN"
-F 6 "Digikey" H 7500 2350 50  0001 C CNN "SPR"
-F 7 "CKN10246CT-ND" H 7500 2350 50  0001 C CNN "SPN"
-F 8 "https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497" H 7500 2350 50  0001 C CNN "SPURL"
-	1    7500 2350
+P 7500 2100
+F 0 "SW1" H 7500 2422 42  0000 C CNN
+F 1 "SW_SPST_KMR2" H 7500 2343 42  0000 C CNN
+F 2 "Aaron:SW_SPST_KMR2" H 7500 2100 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 7500 2100 50  0001 C CNN
+F 4 "C&K" H 7500 2100 50  0001 C CNN "MFR"
+F 5 "KMR231NG LFS" H 7500 2100 50  0001 C CNN "MPN"
+F 6 "Digikey" H 7500 2100 50  0001 C CNN "SPR"
+F 7 "CKN10246CT-ND" H 7500 2100 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497" H 7500 2100 50  0001 C CNN "SPURL"
+	1    7500 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L switch_tact_smt:SW_SPST_KMR2 SW2
 U 1 1 5BFC5AD8
-P 7500 2900
-F 0 "SW2" H 7500 3222 42  0000 C CNN
-F 1 "SW_SPST_KMR2" H 7500 3143 42  0000 C CNN
-F 2 "Aaron:SW_SPST_KMR2" H 7500 2900 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 7500 2900 50  0001 C CNN
-F 4 "C&K" H 7500 2900 50  0001 C CNN "MFR"
-F 5 "KMR231NG LFS" H 7500 2900 50  0001 C CNN "MPN"
-F 6 "Digikey" H 7500 2900 50  0001 C CNN "SPR"
-F 7 "CKN10246CT-ND" H 7500 2900 50  0001 C CNN "SPN"
-F 8 "https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497" H 7500 2900 50  0001 C CNN "SPURL"
-	1    7500 2900
+P 7500 2650
+F 0 "SW2" H 7500 2972 42  0000 C CNN
+F 1 "SW_SPST_KMR2" H 7500 2893 42  0000 C CNN
+F 2 "Aaron:SW_SPST_KMR2" H 7500 2650 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 7500 2650 50  0001 C CNN
+F 4 "C&K" H 7500 2650 50  0001 C CNN "MFR"
+F 5 "KMR231NG LFS" H 7500 2650 50  0001 C CNN "MPN"
+F 6 "Digikey" H 7500 2650 50  0001 C CNN "SPR"
+F 7 "CKN10246CT-ND" H 7500 2650 50  0001 C CNN "SPN"
+F 8 "https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497" H 7500 2650 50  0001 C CNN "SPURL"
+	1    7500 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5BFC5D14
-P 7700 3050
-F 0 "#PWR017" H 7700 2800 50  0001 C CNN
-F 1 "GND" H 7705 2877 50  0000 C CNN
-F 2 "" H 7700 3050 50  0001 C CNN
-F 3 "" H 7700 3050 50  0001 C CNN
-	1    7700 3050
+P 7700 2800
+F 0 "#PWR017" H 7700 2550 50  0001 C CNN
+F 1 "GND" H 7705 2627 50  0000 C CNN
+F 2 "" H 7700 2800 50  0001 C CNN
+F 3 "" H 7700 2800 50  0001 C CNN
+	1    7700 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 3050 7700 3000
+	7700 2800 7700 2750
 Wire Wire Line
-	7700 3000 7700 2900
-Connection ~ 7700 3000
+	7700 2750 7700 2650
+Connection ~ 7700 2750
 Wire Wire Line
-	7700 2900 7700 2450
-Connection ~ 7700 2900
+	7700 2650 7700 2200
+Connection ~ 7700 2650
 Wire Wire Line
-	7700 2450 7700 2350
-Connection ~ 7700 2450
+	7700 2200 7700 2100
+Connection ~ 7700 2200
 Wire Wire Line
-	7000 2350 7300 2350
+	7000 2100 7300 2100
 Wire Wire Line
-	7300 2350 7300 2450
-Connection ~ 7300 2350
+	7300 2100 7300 2200
+Connection ~ 7300 2100
 Wire Wire Line
-	7000 2900 7300 2900
+	7000 2650 7300 2650
 Wire Wire Line
-	7300 2900 7300 3000
-Connection ~ 7300 2900
-Text Label 7000 2350 0    50   ~ 0
+	7300 2650 7300 2750
+Connection ~ 7300 2650
+Text Label 7000 2100 0    50   ~ 0
 N_ISP
-Text Label 7000 2900 0    50   ~ 0
+Text Label 7000 2650 0    50   ~ 0
 N_RST
 $Comp
 L Connector_Generic:Conn_01x04 J10
@@ -1420,15 +1364,19 @@ F 0 "U2" H 4300 2537 60  0000 C CNN
 F 1 "LD1117S33CTR" H 4300 2431 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 4450 2450 60  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 4450 2550 60  0001 L CNN
-F 4 "497-1241-1-ND" H 4450 2650 60  0001 L CNN "Digi-Key_PN"
+F 4 "STMicroelectronics" H 4250 2250 50  0001 C CNN "MFR"
 F 5 "LD1117S33CTR" H 4450 2750 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 4450 2850 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 4450 2950 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 4450 3050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" H 4450 3150 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 800MA SOT223" H 4450 3250 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 4450 3350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4450 3450 60  0001 L CNN "Status"
+F 6 "Digikey" H 4250 2250 50  0001 C CNN "SPR"
+F 7 "497-1241-1-ND" H 4250 2250 50  0001 C CNN "SPN"
+F 8 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" H 4250 2250 50  0001 C CNN "SPURL"
+F 9 "497-1241-1-ND" H 4450 2650 60  0001 L CNN "Digi-Key_PN"
+F 10 "Integrated Circuits (ICs)" H 4450 2850 60  0001 L CNN "Category"
+F 11 "PMIC - Voltage Regulators - Linear" H 4450 2950 60  0001 L CNN "Family"
+F 12 "http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 4450 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 13 "/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241" H 4450 3150 60  0001 L CNN "DK_Detail_Page"
+F 14 "IC REG LINEAR 3.3V 800MA SOT223" H 4450 3250 60  0001 L CNN "Description"
+F 15 "STMicroelectronics" H 4450 3350 60  0001 L CNN "Manufacturer"
+F 16 "Active" H 4450 3450 60  0001 L CNN "Status"
 	1    4250 2250
 	1    0    0    -1  
 $EndComp
@@ -1469,6 +1417,57 @@ F 1 "GND" H 6705 1227 50  0000 C CNN
 F 2 "" H 6700 1400 50  0001 C CNN
 F 3 "" H 6700 1400 50  0001 C CNN
 	1    6700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5C066BF5
+P 5200 3850
+F 0 "#PWR0103" H 5200 3700 50  0001 C CNN
+F 1 "+3.3V" H 5300 4000 50  0000 C CNN
+F 2 "" H 5200 3850 50  0001 C CNN
+F 3 "" H 5200 3850 50  0001 C CNN
+	1    5200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3900 7000 5000
+Wire Wire Line
+	7000 3900 7800 3900
+Connection ~ 7000 3900
+Wire Wire Line
+	7800 3900 7800 4150
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5C085CBE
+P 5900 1700
+F 0 "J?" H 5873 1673 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5873 1582 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical" H 5900 1700 50  0001 C CNN
+F 3 "~" H 5900 1700 50  0001 C CNN
+	1    5900 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C085CC5
+P 5700 1600
+F 0 "#PWR?" H 5700 1450 50  0001 C CNN
+F 1 "+12V" H 5715 1773 50  0000 C CNN
+F 2 "" H 5700 1600 50  0001 C CNN
+F 3 "" H 5700 1600 50  0001 C CNN
+	1    5700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C085CCB
+P 5700 1700
+F 0 "#PWR?" H 5700 1450 50  0001 C CNN
+F 1 "GND" H 5705 1527 50  0000 C CNN
+F 2 "" H 5700 1700 50  0001 C CNN
+F 3 "" H 5700 1700 50  0001 C CNN
+	1    5700 1700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

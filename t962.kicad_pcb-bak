@@ -12,8 +12,8 @@
   (page USLetter)
   (title_block
     (title "T-962 Temp Monitor and Fan Controller")
-    (date 2018-12-02)
-    (rev 1.1)
+    (date 2019-01-25)
+    (rev 1.2.1)
     (company "Copyright © 2018 by Aaron Williams")
   )
 
@@ -70,7 +70,7 @@
     (mod_text_width 0.15)
     (pad_size 1.524 1.524)
     (pad_drill 0.762)
-    (pad_to_mask_clearance 0.051)
+    (pad_to_mask_clearance -0.0504)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
@@ -1878,7 +1878,7 @@
   (gr_text "12V In" (at 131.8 40.8) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Rev 1.1" (at 156.7 37.6) (layer F.SilkS)
+  (gr_text "Rev 1.2" (at 156.7 37.6) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "Copyright © 2018\nAaron Williams" (at 160.6 62.7) (layer B.SilkS)

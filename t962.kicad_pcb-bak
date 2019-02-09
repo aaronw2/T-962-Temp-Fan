@@ -12,8 +12,8 @@
   (page USLetter)
   (title_block
     (title "T-962 Temp Monitor and Fan Controller")
-    (date 2019-01-25)
-    (rev 1.2.1)
+    (date 2019-02-08)
+    (rev 1.2.2)
     (company "Copyright © 2018 by Aaron Williams")
   )
 

@@ -6,7 +6,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "T-962 Temperature Monitor Board"
-Date "2019-03-24"
+Date "2019-03-27"
 Rev "1.2.3"
 Comp ""
 Comment1 "Copyright © 2018 Aaron Williams"
@@ -1620,12 +1620,12 @@ Wire Wire Line
 Wire Wire Line
 	8450 2250 8350 2250
 $Comp
-L Connector:Conn_01x03_Male J?
+L Connector:Conn_01x03_Male J9
 U 1 1 5CA04CCC
 P 8650 2250
-F 0 "J?" H 8622 2182 50  0000 R CNN
+F 0 "J9" H 8622 2182 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 8622 2273 50  0000 R CNN
-F 2 "" H 8650 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8650 2250 50  0001 C CNN
 F 3 "~" H 8650 2250 50  0001 C CNN
 	1    8650 2250
 	-1   0    0    1   

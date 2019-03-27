@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch</source>
-    <date>Sun 02 Dec 2018 11:39:35 PM PST</date>
-    <tool>Eeschema 5.0.1-5.0.1</tool>
+    <date>Fri 08 Feb 2019 10:30:58 PM PST</date>
+    <tool>Eeschema 5.0.2-5.0.2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>T-962 Temperature Monitor Board</title>
         <company/>
-        <rev>1.1</rev>
-        <date>2018-12-02</date>
+        <rev>1.2</rev>
+        <date>2019-01-05</date>
         <source>t962.sch</source>
         <comment number="1" value="Copyright © 2018 Aaron Williams"/>
         <comment number="2" value=""/>
@@ -38,6 +38,13 @@
       <value>0.01uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFCD36</tstamp>
@@ -46,6 +53,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFCE05</tstamp>
@@ -69,6 +83,13 @@
       <value>0.01uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFDCE4</tstamp>
@@ -77,6 +98,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFDCEB</tstamp>
@@ -100,6 +128,13 @@
       <value>0.01uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFE4A8</tstamp>
@@ -108,6 +143,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFE4AF</tstamp>
@@ -131,6 +173,13 @@
       <value>0.01uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFF212</tstamp>
@@ -139,6 +188,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BEFF219</tstamp>
@@ -146,7 +202,14 @@
     <comp ref="R1">
       <value>4.7K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="SPN">311-4.70KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF12A45</tstamp>
@@ -170,22 +233,36 @@
       <value>Conn_01x03</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF14911</tstamp>
     </comp>
     <comp ref="J3">
-      <value>Conn_01x02_Male</value>
+      <value>JST XH-B02B-XH-AM</value>
       <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MFR">JST</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="SPN">455-2247-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF15EC9</tstamp>
     </comp>
     <comp ref="J5">
-      <value>Conn_01x02_Male</value>
+      <value>JST XH-B02B-XH-AM</value>
       <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
       <fields>
         <field name="MFR">JST</field>
         <field name="MPN">B2B-XH-A(LF)(SN)</field>
@@ -201,6 +278,13 @@
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">AC0603FR-07100KL</field>
+        <field name="SPN">311-100KLDCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF1A442</tstamp>
@@ -209,6 +293,13 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF1A875</tstamp>
@@ -245,7 +336,7 @@
     </comp>
     <comp ref="D1">
       <value>USBLC6-2SC6</value>
-      <footprint>Package_TO_SOT_SMD:SOT-666</footprint>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</datasheet>
       <fields>
         <field name="Category">Circuit Protection</field>
@@ -270,6 +361,13 @@
       <value>1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF7117D</tstamp>
@@ -278,6 +376,13 @@
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF81F34</tstamp>
@@ -286,6 +391,13 @@
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF81F3B</tstamp>
@@ -294,6 +406,13 @@
       <value>2.54mm pin header</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BF8D1BE</tstamp>
@@ -332,6 +451,13 @@
       <value>Conn_01x04</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BFE540D</tstamp>
@@ -340,6 +466,13 @@
       <value>22.1K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">ERJ-3EKF2212V</field>
+        <field name="SPN">P22.1KHCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C07834A</tstamp>
@@ -348,6 +481,13 @@
       <value>47.5K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0747K5L</field>
+        <field name="SPN">311-47.5KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C078548</tstamp>
@@ -356,6 +496,13 @@
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C08B075</tstamp>
@@ -364,6 +511,13 @@
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C08B552</tstamp>
@@ -372,6 +526,13 @@
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C091875</tstamp>
@@ -380,6 +541,13 @@
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C097303</tstamp>
@@ -426,14 +594,28 @@
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C14CFE9</tstamp>
     </comp>
     <comp ref="J6">
-      <value>Conn_01x02_Male</value>
+      <value>JST XH-B02B-XH-AM</value>
       <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MFR">JST</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="SPN">455-2247-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">-</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C085CBE</tstamp>
@@ -781,237 +963,235 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/N_ISP">
-      <node ref="SW1" pin="1"/>
-      <node ref="J7" pin="1"/>
-      <node ref="SW1" pin="1"/>
+    <net code="1" name="/FAN_PWM">
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="2"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="C8" pin="1"/>
-      <node ref="U4" pin="6"/>
-      <node ref="U4" pin="8"/>
-      <node ref="U4" pin="9"/>
-      <node ref="J6" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="H4" pin="1"/>
-      <node ref="H3" pin="1"/>
-      <node ref="H2" pin="1"/>
-      <node ref="H1" pin="1"/>
-      <node ref="R5" pin="2"/>
-      <node ref="U4" pin="11"/>
-      <node ref="U4" pin="1"/>
-      <node ref="U6" pin="9"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="U5" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U6" pin="8"/>
-      <node ref="U6" pin="11"/>
-      <node ref="U6" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U3" pin="11"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="9"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U1" pin="6"/>
-      <node ref="U1" pin="11"/>
-      <node ref="U3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U3" pin="9"/>
-      <node ref="U3" pin="8"/>
-      <node ref="U3" pin="7"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="J10" pin="1"/>
-      <node ref="J7" pin="5"/>
-      <node ref="D1" pin="2"/>
-      <node ref="J8" pin="5"/>
-      <node ref="J8" pin="6"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="U5" pin="25"/>
-    </net>
-    <net code="3" name="/RXD0">
-      <node ref="J7" pin="4"/>
-      <node ref="U5" pin="20"/>
-    </net>
-    <net code="4" name="/TXD0">
-      <node ref="J7" pin="3"/>
-      <node ref="U5" pin="21"/>
-    </net>
-    <net code="5" name="/N_RST">
-      <node ref="J7" pin="2"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="SW2" pin="1"/>
-    </net>
-    <net code="6" name="+5V">
-      <node ref="D1" pin="5"/>
-      <node ref="R4" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J10" pin="4"/>
-    </net>
-    <net code="7" name="/D-">
-      <node ref="D1" pin="3"/>
-      <node ref="J10" pin="3"/>
-      <node ref="J8" pin="2"/>
-    </net>
-    <net code="8" name="Net-(J8-Pad4)">
-      <node ref="J8" pin="4"/>
-    </net>
-    <net code="9" name="Net-(R4-Pad2)">
-      <node ref="R5" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U5" pin="8"/>
-    </net>
-    <net code="10" name="Net-(U5-Pad24)">
-      <node ref="U5" pin="24"/>
-    </net>
-    <net code="11" name="Net-(R3-Pad2)">
-      <node ref="U5" pin="9"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="12" name="/T1+">
-      <node ref="J2" pin="5"/>
-      <node ref="U3" pin="3"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="13" name="/T1-">
-      <node ref="J2" pin="6"/>
-      <node ref="U3" pin="2"/>
-      <node ref="C5" pin="2"/>
-    </net>
-    <net code="14" name="/T0+">
-      <node ref="U1" pin="3"/>
-      <node ref="J2" pin="7"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="15" name="/T0-">
+    <net code="2" name="/T0-">
       <node ref="U1" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="J2" pin="8"/>
     </net>
-    <net code="16" name="/T2-">
-      <node ref="J2" pin="4"/>
-      <node ref="C11" pin="2"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="17" name="Net-(U5-Pad14)">
-      <node ref="U5" pin="14"/>
-    </net>
-    <net code="18" name="Net-(U5-Pad13)">
-      <node ref="U5" pin="13"/>
-    </net>
-    <net code="19" name="Net-(U5-Pad12)">
-      <node ref="U5" pin="12"/>
-    </net>
-    <net code="20" name="Net-(U5-Pad11)">
-      <node ref="U5" pin="11"/>
-    </net>
-    <net code="21" name="Net-(U5-Pad1)">
-      <node ref="U5" pin="1"/>
-    </net>
-    <net code="22" name="Net-(U5-Pad18)">
-      <node ref="U5" pin="18"/>
-    </net>
-    <net code="23" name="Net-(U5-Pad19)">
-      <node ref="U5" pin="19"/>
-    </net>
-    <net code="24" name="Net-(U5-Pad23)">
-      <node ref="U5" pin="23"/>
-    </net>
-    <net code="25" name="+3V3">
-      <node ref="R2" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U3" pin="4"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U3" pin="6"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U4" pin="4"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J4" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U6" pin="6"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U4" pin="7"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U6" pin="7"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="U6" pin="4"/>
-      <node ref="U5" pin="6"/>
-      <node ref="U5" pin="7"/>
-    </net>
-    <net code="26" name="+12V">
-      <node ref="J6" pin="2"/>
-      <node ref="J5" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="J3" pin="2"/>
-    </net>
-    <net code="27" name="Net-(U5-Pad22)">
-      <node ref="U5" pin="22"/>
-    </net>
-    <net code="28" name="/T3+">
-      <node ref="J2" pin="1"/>
+    <net code="3" name="/T3+">
       <node ref="C13" pin="1"/>
+      <node ref="J2" pin="1"/>
       <node ref="U6" pin="3"/>
     </net>
-    <net code="29" name="/T3-">
+    <net code="4" name="/T3-">
       <node ref="U6" pin="2"/>
       <node ref="C13" pin="2"/>
       <node ref="J2" pin="2"/>
     </net>
-    <net code="30" name="/T2+">
-      <node ref="J2" pin="3"/>
+    <net code="5" name="/T2+">
       <node ref="U4" pin="3"/>
       <node ref="C11" pin="1"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="31" name="/VIO">
+    <net code="6" name="/T2-">
+      <node ref="J2" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="7" name="/T1+">
+      <node ref="C5" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="8" name="/FAN_PWM_OUT">
+      <node ref="Q1" pin="3"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="9" name="/RXD0">
+      <node ref="J7" pin="4"/>
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="10" name="/TXD0">
+      <node ref="U5" pin="21"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="11" name="/DQ">
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="H1" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C8" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U5" pin="25"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="11"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U6" pin="9"/>
+      <node ref="C12" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="8"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J8" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="13" name="+12V">
+      <node ref="J5" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="14" name="/T1-">
+      <node ref="J2" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="15" name="/T0+">
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="16" name="Net-(U5-Pad23)">
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="17" name="+3V3">
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="6"/>
       <node ref="R3" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C8" pin="2"/>
       <node ref="U5" pin="5"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U6" pin="7"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J4" pin="2"/>
     </net>
-    <net code="32" name="/P_D-">
-      <node ref="D1" pin="4"/>
-      <node ref="U5" pin="4"/>
+    <net code="18" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
     </net>
-    <net code="33" name="/P_D+">
-      <node ref="D1" pin="6"/>
-      <node ref="U5" pin="3"/>
+    <net code="19" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
     </net>
-    <net code="34" name="Net-(U5-Pad15)">
+    <net code="20" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="21" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="22" name="Net-(U5-Pad11)">
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="25" name="Net-(U5-Pad19)">
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="26" name="Net-(U5-Pad24)">
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="27" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="28" name="Net-(U5-Pad15)">
       <node ref="U5" pin="15"/>
     </net>
-    <net code="35" name="Net-(U5-Pad17)">
+    <net code="29" name="Net-(U5-Pad17)">
       <node ref="U5" pin="17"/>
     </net>
+    <net code="30" name="/N_RST">
+      <node ref="J7" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="31" name="/N_ISP">
+      <node ref="SW1" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="33" name="/P_D+">
+      <node ref="U5" pin="3"/>
+      <node ref="D1" pin="6"/>
+    </net>
+    <net code="34" name="/P_D-">
+      <node ref="U5" pin="4"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="35" name="/D-">
+      <node ref="J10" pin="3"/>
+      <node ref="J8" pin="2"/>
+      <node ref="D1" pin="3"/>
+    </net>
     <net code="36" name="/D+">
-      <node ref="J10" pin="2"/>
-      <node ref="J8" pin="3"/>
       <node ref="D1" pin="1"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J10" pin="2"/>
     </net>
-    <net code="37" name="/FAN_PWM_OUT">
-      <node ref="J5" pin="1"/>
-      <node ref="Q1" pin="3"/>
+    <net code="37" name="Net-(R3-Pad2)">
+      <node ref="U5" pin="9"/>
+      <node ref="R3" pin="2"/>
     </net>
-    <net code="38" name="/FAN_PWM">
-      <node ref="Q1" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="39" name="/DQ">
-      <node ref="J1" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U3" pin="5"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U6" pin="5"/>
-      <node ref="U4" pin="5"/>
+    <net code="38" name="+5V">
+      <node ref="J8" pin="1"/>
+      <node ref="D1" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J10" pin="4"/>
     </net>
   </nets>
 </export>

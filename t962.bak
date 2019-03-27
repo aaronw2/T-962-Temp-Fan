@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:t962-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "T-962 Temperature Monitor Board"
-Date "2019-01-05"
-Rev "1.2"
+Date "2019-03-24"
+Rev "1.2.3"
 Comp ""
 Comment1 "Copyright © 2018 Aaron Williams"
 Comment2 ""
@@ -777,28 +777,28 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x05 J7
 U 1 1 5BF8D1BE
-P 9400 4800
-F 0 "J7" H 9480 4842 50  0000 L CNN
-F 1 "2.54mm pin header" H 9480 4751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9400 4800 50  0001 C CNN
-F 3 "~" H 9400 4800 50  0001 C CNN
-F 4 "-" H 0   0   50  0001 C CNN "MFR"
-F 5 "-" H 0   0   50  0001 C CNN "MPN"
-F 6 "-" H 0   0   50  0001 C CNN "SPR"
-F 7 "-" H 0   0   50  0001 C CNN "SPN"
-F 8 "-" H 0   0   50  0001 C CNN "SPURL"
-	1    9400 4800
+P 9350 4700
+F 0 "J7" H 9430 4742 50  0000 L CNN
+F 1 "2.54mm pin header" H 9430 4651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9350 4700 50  0001 C CNN
+F 3 "~" H 9350 4700 50  0001 C CNN
+F 4 "-" H -50 -100 50  0001 C CNN "MFR"
+F 5 "-" H -50 -100 50  0001 C CNN "MPN"
+F 6 "-" H -50 -100 50  0001 C CNN "SPR"
+F 7 "-" H -50 -100 50  0001 C CNN "SPN"
+F 8 "-" H -50 -100 50  0001 C CNN "SPURL"
+	1    9350 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR030
 U 1 1 5BF90085
-P 9200 5000
-F 0 "#PWR030" H 9200 4750 50  0001 C CNN
-F 1 "GND" H 9205 4827 50  0000 C CNN
-F 2 "" H 9200 5000 50  0001 C CNN
-F 3 "" H 9200 5000 50  0001 C CNN
-	1    9200 5000
+P 9150 4900
+F 0 "#PWR030" H 9150 4650 50  0001 C CNN
+F 1 "GND" H 9155 4727 50  0000 C CNN
+F 2 "" H 9150 4900 50  0001 C CNN
+F 3 "" H 9150 4900 50  0001 C CNN
+	1    9150 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1186,13 +1186,13 @@ Text Label 3500 1050 0    50   ~ 0
 DQ
 Text Label 3500 1150 0    50   ~ 0
 FAN_PWM
-Text Label 8900 4600 0    50   ~ 0
+Text Label 8850 4500 0    50   ~ 0
 N_ISP
-Text Label 8900 4700 0    50   ~ 0
+Text Label 8850 4600 0    50   ~ 0
 N_RST
-Text Label 8900 4800 0    50   ~ 0
+Text Label 8850 4700 0    50   ~ 0
 TXD0
-Text Label 8900 4900 0    50   ~ 0
+Text Label 8850 4800 0    50   ~ 0
 RXD0
 Text Label 7000 2100 0    50   ~ 0
 N_ISP
@@ -1445,17 +1445,9 @@ Wire Wire Line
 Wire Wire Line
 	5650 3900 7000 3900
 Wire Wire Line
-	9200 4600 8900 4600
+	9150 4500 8850 4500
 Wire Wire Line
-	8900 4700 9200 4700
-Wire Wire Line
-	8450 4800 9200 4800
-Wire Wire Line
-	8450 4700 8650 4700
-Wire Wire Line
-	8650 4700 8650 4900
-Wire Wire Line
-	8650 4900 9200 4900
+	8850 4600 9150 4600
 Wire Wire Line
 	7900 5950 7900 5850
 Wire Wire Line
@@ -1540,6 +1532,14 @@ Wire Wire Line
 	7000 3900 7200 3900
 Wire Wire Line
 	7800 3900 7800 4150
+Wire Wire Line
+	7200 3900 7800 3900
+Wire Wire Line
+	7200 3900 7200 4100
+Wire Wire Line
+	7900 3900 7800 3900
+Wire Wire Line
+	7900 3900 7900 4150
 Connection ~ 1800 950 
 Connection ~ 1700 1800
 Connection ~ 1700 1700
@@ -1579,6 +1579,8 @@ Connection ~ 6800 6200
 Connection ~ 4650 2250
 Connection ~ 4900 2250
 Connection ~ 7000 3900
+Connection ~ 7200 3900
+Connection ~ 7800 3900
 NoConn ~ 7350 4700
 NoConn ~ 7350 4800
 NoConn ~ 8450 4900
@@ -1592,14 +1594,47 @@ NoConn ~ 8450 5400
 NoConn ~ 8450 5500
 NoConn ~ 8450 5600
 NoConn ~ 5150 5300
-Connection ~ 7200 3900
 Wire Wire Line
-	7200 3900 7800 3900
+	8450 4800 9150 4800
 Wire Wire Line
-	7200 3900 7200 4100
+	8450 4700 9150 4700
+Text Label 7850 2000 0    50   ~ 0
+N_ISP
+Text Label 7850 2200 0    50   ~ 0
+N_RST
+$Comp
+L power:GND #PWR022
+U 1 1 5C9D63D4
+P 8150 2650
+F 0 "#PWR022" H 8150 2400 50  0001 C CNN
+F 1 "GND" H 8155 2477 50  0000 C CNN
+F 2 "" H 8150 2650 50  0001 C CNN
+F 3 "" H 8150 2650 50  0001 C CNN
+	1    8150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5C9DA550
+P 8450 2200
+F 0 "J?" H 8422 2082 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 8422 2173 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8450 2200 50  0001 C CNN
+F 3 "~" H 8450 2200 50  0001 C CNN
+	1    8450 2200
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	7900 3900 7800 3900
+	7850 2200 8250 2200
 Wire Wire Line
-	7900 3900 7900 4150
-Connection ~ 7800 3900
+	7850 2000 8250 2000
+Wire Wire Line
+	8250 2100 8150 2100
+Wire Wire Line
+	8150 2100 8150 2300
+Wire Wire Line
+	8250 2300 8150 2300
+Connection ~ 8150 2300
+Wire Wire Line
+	8150 2300 8150 2650
 $EndSCHEMATC

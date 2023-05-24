@@ -1,338 +1,388 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch</source>
-    <date>Wed 27 Mar 2019 04:27:29 PM PDT</date>
-    <tool>Eeschema 5.1.0-5.1.0</tool>
+    <source>/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.kicad_sch</source>
+    <date>Wed 24 May 2023 01:38:46 AM PDT</date>
+    <tool>Eeschema 7.0.3-24-g09febce4ce</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>T-962 Temperature Monitor Board</title>
         <company/>
         <rev>1.2.3</rev>
-        <date>2019-03-24</date>
-        <source>t962.sch</source>
+        <date>2019-03-27</date>
+        <source>t962.kicad_sch</source>
         <comment number="1" value="Copyright © 2018 Aaron Williams"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="U1">
-      <value>MAX31850KATB+</value>
-      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
-      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNNC_Spec.pdf</datasheet>
       <fields>
-        <field name="MFR">Maxim</field>
-        <field name="MPN">MAX31850KATB+</field>
-        <field name="SPN">MAX31850KATB+-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-1000-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-1000-1-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/maxim-integrated/MAX31850KATB/MAX31850KATB-ND/3976056</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
       </fields>
-      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1000-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-1000-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFC8D3</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005befce05</tstamps>
     </comp>
     <comp ref="C2">
       <value>0.01uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R72A103KA37-01.pdf</datasheet>
       <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
+        <field name="Description">CAP CER 10000PF 100V X7R 0603</field>
+        <field name="Digi-Key_PN">490-4781-1-ND</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GCM188R72A103KA37D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="SPN">490-4781-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Murata Electronics"/>
+      <property name="MPN" value="GCM188R72A103KA37D"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="490-4781-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655"/>
+      <property name="Description" value="CAP CER 10000PF 100V X7R 0603"/>
+      <property name="Digi-Key_PN" value="490-4781-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFCD36</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFCE05</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>MAX31850KATB+</value>
-      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
-      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
-      <fields>
-        <field name="MFR">Maxim</field>
-        <field name="MPN">MAX31850KATB+</field>
-        <field name="SPN">MAX31850KATB+-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/maxim-integrated/MAX31850KATB/MAX31850KATB-ND/3976056</field>
-      </fields>
-      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFDCDD</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>0.01uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFDCE4</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFDCEB</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>MAX31850KATB+</value>
-      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
-      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
-      <fields>
-        <field name="MFR">Maxim</field>
-        <field name="MPN">MAX31850KATB+</field>
-        <field name="SPN">MAX31850KATB+-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/maxim-integrated/MAX31850KATB/MAX31850KATB-ND/3976056</field>
-      </fields>
-      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFE4A1</tstamp>
-    </comp>
-    <comp ref="C11">
-      <value>0.01uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFE4A8</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFE4AF</tstamp>
-    </comp>
-    <comp ref="U6">
-      <value>MAX31850KATB+</value>
-      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
-      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
-      <fields>
-        <field name="MFR">Maxim</field>
-        <field name="MPN">MAX31850KATB+</field>
-        <field name="SPN">MAX31850KATB+-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/products/en/integrated-circuits-ics/interface-sensor-and-detector-interfaces/752?k=MAX31850KATB%2B&amp;k=&amp;pkeyword=MAX31850KATB%2B&amp;pv7=6&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=500</field>
-      </fields>
-      <libsource lib="Aaron" part="MAX31850KATB+" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFF20B</tstamp>
-    </comp>
-    <comp ref="C13">
-      <value>0.01uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFF212</tstamp>
-    </comp>
-    <comp ref="C12">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BEFF219</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>4.7K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_9.pdf</datasheet>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-074K7L</field>
-        <field name="SPN">311-4.70KHRCT-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF12A45</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>BSS214NW</value>
-      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
-      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
-      <fields>
-        <field name="MFR">Infineon</field>
-        <field name="MPN">BSS214NWH6327XTSA1</field>
-        <field name="SPN">BSS214NWH6327XTSA1CT-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=BSS214NW&amp;k=&amp;pkeyword=BSS214NW&amp;pv7=2&amp;pv1989=0&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;nstock=1&amp;pageSize=500</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF14845</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>Conn_01x03</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF14911</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>JST XH-B02B-XH-AM</value>
-      <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
-      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
-      <fields>
-        <field name="MFR">JST</field>
-        <field name="MPN">B2B-XH-A(LF)(SN)</field>
-        <field name="SPN">455-2247-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF15EC9</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>JST XH-B02B-XH-AM</value>
-      <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
-      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
-      <fields>
-        <field name="MFR">JST</field>
-        <field name="MPN">B2B-XH-A(LF)(SN)</field>
-        <field name="SPN">455-2247-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/jst-sales-america-inc/B2B-XH-A-LF-SN/455-2247-ND/1651045</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF175C2</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>100K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">AC0603FR-07100KL</field>
-        <field name="SPN">311-100KLDCT-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF1A442</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005befcd36</tstamps>
     </comp>
     <comp ref="C3">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B105KA8NNNC_spec.pdf</datasheet>
       <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
+        <field name="Description">CAP CER 1UF 25V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-1184-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B105KA8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-1184-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B105KA8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1184-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KA8NNNC/3886842"/>
+      <property name="Description" value="CAP CER 1UF 25V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-1184-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF1A875</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005bf1a875</tstamps>
     </comp>
-    <comp ref="U5">
-      <value>CP2102N-A01-QFN24</value>
-      <footprint>Aaron:QFN-24-1EP_4x4mm_Pitch0.5mm_rounded_corners</footprint>
-      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf</datasheet>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNNC_Spec.pdf</datasheet>
       <fields>
-        <field name="MFR">Silicon Labs</field>
-        <field name="MPN">CP2102N-A01-GQFN24R</field>
-        <field name="SPN">336-4737-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-1000-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-1000-1-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/products/en/integrated-circuits-ics/interface-controllers/753?k=CP2102N&amp;k=&amp;pkeyword=CP2102N&amp;pv7=2&amp;pv16=3839&amp;sf=0&amp;FV=ffe002f1&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;nstock=1&amp;pageSize=500</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
       </fields>
-      <libsource lib="cp2102n-a01-qfn24" part="CP2102N-A01-QFN24" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1000-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-1000-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF329C9</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005befdceb</tstamps>
     </comp>
-    <comp ref="J8">
-      <value>USB_B_Micro</value>
-      <footprint>Aaron:USB_Micro-B_Molex-105017-0001</footprint>
-      <datasheet>https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf</datasheet>
+    <comp ref="C5">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R72A103KA37-01.pdf</datasheet>
       <fields>
-        <field name="MFR">Molex</field>
-        <field name="MPN">1050170001</field>
-        <field name="SPN">WM1399CT-ND</field>
+        <field name="Description">CAP CER 10000PF 100V X7R 0603</field>
+        <field name="Digi-Key_PN">490-4781-1-ND</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GCM188R72A103KA37D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="SPN">490-4781-1-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655</field>
       </fields>
-      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Murata Electronics"/>
+      <property name="MPN" value="GCM188R72A103KA37D"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="490-4781-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655"/>
+      <property name="Description" value="CAP CER 10000PF 100V X7R 0603"/>
+      <property name="Digi-Key_PN" value="490-4781-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF32C34</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005befdce4</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B475KQ8NQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 6.3V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-2087-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B475KQ8NQNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-2087-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B475KQ8NQNC/3887745</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B475KQ8NQNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-2087-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B475KQ8NQNC/3887745"/>
+      <property name="Description" value="CAP CER 4.7UF 6.3V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-2087-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>379da4c5-5993-4716-b88b-3f12b3929200</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-1000-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-1000-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1000-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-1000-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005befe4af</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B475KQ8NQNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 4.7UF 6.3V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-2087-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B475KQ8NQNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-2087-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B475KQ8NQNC/3887745</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B475KQ8NQNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-2087-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B475KQ8NQNC/3887745"/>
+      <property name="Description" value="CAP CER 4.7UF 6.3V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-2087-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf81f3b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-1000-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-1000-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1000-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-1000-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf81f34</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R72A103KA37-01.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10000PF 100V X7R 0603</field>
+        <field name="Digi-Key_PN">490-4781-1-ND</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GCM188R72A103KA37D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="SPN">490-4781-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Murata Electronics"/>
+      <property name="MPN" value="GCM188R72A103KA37D"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="490-4781-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655"/>
+      <property name="Description" value="CAP CER 10000PF 100V X7R 0603"/>
+      <property name="Digi-Key_PN" value="490-4781-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005befe4a8</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KB8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 50V X7R 0603</field>
+        <field name="Digi-Key_PN">1276-1000-1-ND</field>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="SPN">1276-1000-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL10B104KB8NNNC"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="1276-1000-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658"/>
+      <property name="Description" value="CAP CER 0.1UF 50V X7R 0603"/>
+      <property name="Digi-Key_PN" value="1276-1000-1-ND"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005beff219</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM188R72A103KA37-01.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP CER 10000PF 100V X7R 0603</field>
+        <field name="Digi-Key_PN">490-4781-1-ND</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GCM188R72A103KA37D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="SPN">490-4781-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR" value="Murata Electronics"/>
+      <property name="MPN" value="GCM188R72A103KA37D"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="490-4781-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/murata-electronics/GCM188R72A103KA37D/1641655"/>
+      <property name="Description" value="CAP CER 10000PF 100V X7R 0603"/>
+      <property name="Digi-Key_PN" value="490-4781-1-ND"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005beff212</tstamps>
     </comp>
     <comp ref="D1">
       <value>USBLC6-2SC6</value>
@@ -353,149 +403,90 @@
         <field name="SPURL">https://www.digikey.com/products/en/circuit-protection/tvs-diodes/144?k=USBLC6-2sc6&amp;k=&amp;pkeyword=USBLC6-2sc6&amp;pv7=2&amp;s=20842&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=500</field>
         <field name="Status">Active</field>
       </fields>
-      <libsource lib="dk_TVS-Diodes" part="USBLC6-2SC6" description="TVS DIODE 5.25V 17V SOT23-6"/>
+      <libsource lib="t962-rescue" part="USBLC6-2SC6-dk_TVS-Diodes" description=""/>
+      <property name="MFR" value="STMicroelectronics"/>
+      <property name="MPN" value="USBLC6-2SC6"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="497-5235-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/products/en/circuit-protection/tvs-diodes/144?k=USBLC6-2sc6&amp;k=&amp;pkeyword=USBLC6-2sc6&amp;pv7=2&amp;s=20842&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;pageSize=500"/>
+      <property name="Digi-Key_PN" value="497-5235-1-ND"/>
+      <property name="Category" value="Circuit Protection"/>
+      <property name="Family" value="TVS - Diodes"/>
+      <property name="DK_Datasheet_Link" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688"/>
+      <property name="Description" value="TVS DIODE 5.25V 17V SOT23-6"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF46FC6</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005bf46fc6</tstamps>
     </comp>
-    <comp ref="R3">
-      <value>1K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+    <comp ref="D2">
+      <value>Red</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/150060RS75000.pdf</datasheet>
       <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-071KL</field>
-        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="DK_Datasheet_Link">https://www.we-online.com/katalog/datasheet/150060RS75000.pdf</field>
+        <field name="Description">Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="Digi-Key_PN">732-4978-1-ND</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060RS75000</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="SPN">732-4978-1-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">-</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901</field>
       </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="DK_Datasheet_Link" value="https://www.we-online.com/katalog/datasheet/150060RS75000.pdf"/>
+      <property name="Description" value="Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="Digi-Key_PN" value="732-4978-1-ND"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060RS75000"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="SPN" value="732-4978-1-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060RS75000/4489901"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF7117D</tstamp>
+      <tstamps>6441f695-ad14-49a3-ab48-0baafaf9e942</tstamps>
     </comp>
-    <comp ref="C10">
-      <value>0.1uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+    <comp ref="D3">
+      <value>Green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060VS75020.pdf</datasheet>
       <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF81F34</tstamp>
-    </comp>
-    <comp ref="C9">
-      <value>4.7uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF81F3B</tstamp>
-    </comp>
-    <comp ref="J7">
-      <value>2.54mm pin header</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BF8D1BE</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_SPST_KMR2</value>
-      <footprint>Aaron:SW_SPST_KMR2</footprint>
-      <datasheet>https://www.ckswitches.com/media/1479/kmr2.pdf</datasheet>
-      <fields>
-        <field name="MFR">C&amp;K</field>
-        <field name="MPN">KMR231NG LFS</field>
-        <field name="SPN">CKN10246CT-ND</field>
+        <field name="Description">Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)</field>
+        <field name="Digi-Key_PN">732-150060VS75020CT-ND</field>
+        <field name="MFR">Würth Elektronik</field>
+        <field name="MPN">150060VS75020</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="SPN">732-150060VS75020CT-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75020/10468264</field>
       </fields>
-      <libsource lib="switch_tact_smt" part="SW_SPST_KMR2" description="SPST SMD  KMR2 SMD micro button"/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="Green 570nm LED Indication - Discrete 2V 0603 (1608 Metric)"/>
+      <property name="Digi-Key_PN" value="732-150060VS75020CT-ND"/>
+      <property name="MFR" value="Würth Elektronik"/>
+      <property name="MPN" value="150060VS75020"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="SPN" value="732-150060VS75020CT-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150060VS75020/10468264"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BFC5790</tstamp>
-    </comp>
-    <comp ref="SW2">
-      <value>SW_SPST_KMR2</value>
-      <footprint>Aaron:SW_SPST_KMR2</footprint>
-      <datasheet>https://www.ckswitches.com/media/1479/kmr2.pdf</datasheet>
-      <fields>
-        <field name="MFR">C&amp;K</field>
-        <field name="MPN">KMR231NG LFS</field>
-        <field name="SPN">CKN10246CT-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">https://www.digikey.com/product-detail/en/c-k/KMR231NG-LFS/CKN10246CT-ND/2176497</field>
-      </fields>
-      <libsource lib="switch_tact_smt" part="SW_SPST_KMR2" description="SPST SMD  KMR2 SMD micro button"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BFC5AD8</tstamp>
-    </comp>
-    <comp ref="J10">
-      <value>Conn_01x04</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5BFE540D</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>22.1K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-3EKF2212V</field>
-        <field name="SPN">P22.1KHCT-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C07834A</tstamp>
-    </comp>
-    <comp ref="R5">
-      <value>47.5K</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="MFR">Yageo</field>
-        <field name="MPN">RC0603FR-0747K5L</field>
-        <field name="SPN">311-47.5KHRCT-ND</field>
-        <field name="SPR">Digikey</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C078548</tstamp>
+      <tstamps>80d906fd-3566-4e92-a27f-0f2e31f7c57f</tstamps>
     </comp>
     <comp ref="H1">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MFR">-</field>
         <field name="MPN">-</field>
@@ -504,13 +495,21 @@
         <field name="SPURL">-</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C08B075</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005c08b075</tstamps>
     </comp>
     <comp ref="H2">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MFR">-</field>
         <field name="MPN">-</field>
@@ -519,13 +518,21 @@
         <field name="SPURL">-</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C08B552</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005c08b552</tstamps>
     </comp>
     <comp ref="H3">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MFR">-</field>
         <field name="MPN">-</field>
@@ -534,13 +541,21 @@
         <field name="SPURL">-</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C091875</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005c091875</tstamps>
     </comp>
     <comp ref="H4">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="MFR">-</field>
         <field name="MPN">-</field>
@@ -549,8 +564,40 @@
         <field name="SPURL">-</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C097303</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005c097303</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf14911</tstamps>
     </comp>
     <comp ref="J2">
       <value>TE 282834-8</value>
@@ -564,8 +611,585 @@
         <field name="SPURL">https://www.digikey.com/products/en?keywords=282834-8</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="TE"/>
+      <property name="MPN" value="282834-8"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="A98338-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/products/en?keywords=282834-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C0FD1C1</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005c0fd1c1</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JST XH-B02B-XH-AM</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MFR">JST</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="SPN">455-2247-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="JST"/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="455-2247-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf15ec9</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c14cfe9</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JST XH-B02B-XH-AM</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MFR">JST</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="SPN">455-2247-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="JST"/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="455-2247-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf175c2</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JST XH-B02B-XH-AM</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="MFR">JST</field>
+        <field name="MPN">B2B-XH-A(LF)(SN)</field>
+        <field name="SPN">455-2247-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="JST"/>
+      <property name="MPN" value="B2B-XH-A(LF)(SN)"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="455-2247-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c085cbe</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>2.54mm pin header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf8d1be</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Aaron:GCT_USB4105-GF-A</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/USB4105%20-%20Product%20Drawing.pdf</datasheet>
+      <fields>
+        <field name="Description">USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole</field>
+        <field name="Digi-Key_PN">2073-USB4105-GF-A-060CT-ND</field>
+        <field name="MFR">GCT</field>
+        <field name="MPN">USB4105-GF-A-060</field>
+        <field name="Manufacturer">GCT</field>
+        <field name="SPN">2073-USB4105-GF-A-060CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/gct/USB4105-GF-A-060/14559036</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Description" value="USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"/>
+      <property name="Digi-Key_PN" value="2073-USB4105-GF-A-060CT-ND"/>
+      <property name="MFR" value="GCT"/>
+      <property name="MPN" value="USB4105-GF-A-060"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="SPN" value="2073-USB4105-GF-A-060CT-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/gct/USB4105-GF-A-060/14559036"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5c23759-f658-4b78-9594-4d56a24e10a9</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005ca04ccc</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPURL">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR" value="-"/>
+      <property name="MPN" value="-"/>
+      <property name="SPR" value="-"/>
+      <property name="SPN" value="-"/>
+      <property name="SPURL" value="-"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bfe540d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS214NW</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</datasheet>
+      <fields>
+        <field name="Description">N-Channel 20 V 1.5A (Ta) 500mW (Ta) Surface Mount PG-SOT323</field>
+        <field name="Digi-Key_PN">BSS214NWH6327XTSA1CT-ND</field>
+        <field name="MFR">Infineon</field>
+        <field name="MPN">BSS214NWH6327XTSA1</field>
+        <field name="Manufacturer">Infineon</field>
+        <field name="SPN">BSS214NWH6327XTSA1CT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=BSS214NW&amp;k=&amp;pkeyword=BSS214NW&amp;pv7=2&amp;pv1989=0&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;nstock=1&amp;pageSize=500</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS214NW" description="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <property name="MFR" value="Infineon"/>
+      <property name="MPN" value="BSS214NWH6327XTSA1"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="BSS214NWH6327XTSA1CT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=BSS214NW&amp;k=&amp;pkeyword=BSS214NW&amp;pv7=2&amp;pv1989=0&amp;sf=0&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;nstock=1&amp;pageSize=500"/>
+      <property name="Description" value="N-Channel 20 V 1.5A (Ta) 500mW (Ta) Surface Mount PG-SOT323"/>
+      <property name="Digi-Key_PN" value="BSS214NWH6327XTSA1CT-ND"/>
+      <property name="Manufacturer" value="Infineon"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf14845</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 4.7K OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-4.70KHRCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="SPN">311-4.70KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-074K7L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-4.70KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-074K7L/727212"/>
+      <property name="Description" value="RES 4.7K OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-4.70KHRCT-ND"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf12a45</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 100K OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-100KHRCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="SPN">311-100KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-100KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889"/>
+      <property name="Description" value="RES 100K OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-100KHRCT-ND"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf1a442</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 1K OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-1.00KHRCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="SPN">311-1.00KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-1.00KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843"/>
+      <property name="Description" value="RES 1K OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-1.00KHRCT-ND"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bf7117d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>24K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 24K OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-24.0KHRCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0724KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="SPN">311-24.0KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0724KL/727076</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0724KL"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-24.0KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0724KL/727076"/>
+      <property name="Description" value="RES 24K OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-24.0KHRCT-ND"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c07834a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>47.5K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 47.5K OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-47.5KHRCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0747K5L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="SPN">311-47.5KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-0747K5L/727255</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-0747K5L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-47.5KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-0747K5L/727255"/>
+      <property name="Description" value="RES 47.5K OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-47.5KHRCT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005c078548</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 5.1K OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-5.10KHRCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="SPN">311-5.10KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-5.10KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268"/>
+      <property name="Description" value="RES 5.1K OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-5.10KHRCT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3faa2f7c-4386-482e-8d5c-c4723ebc75df</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 5.1K OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-5.10KHRCT-ND</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="SPN">311-5.10KHRCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="Yageo"/>
+      <property name="MPN" value="RC0603FR-075K1L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-5.10KHRCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268"/>
+      <property name="Description" value="RES 5.1K OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-5.10KHRCT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edca22cd-2835-4b77-9560-60b812787c16</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 0.56 OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-.56QCT-ND</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RL0603FR-070R56L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="SPN">311-.56QCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RL0603FR-070R56L/1037110</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RL0603FR-070R56L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-.56QCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RL0603FR-070R56L/1037110"/>
+      <property name="Description" value="RES 0.56 OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-.56QCT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1468627d-b8bf-49ee-8c78-b626f5cc4d1a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf</datasheet>
+      <fields>
+        <field name="Description">RES 0.56 OHM 1% 1/10W 0603</field>
+        <field name="Digi-Key_PN">311-.56QCT-ND</field>
+        <field name="MFR">YAGEO</field>
+        <field name="MPN">RL0603FR-070R56L</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="SPN">311-.56QCT-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/yageo/RL0603FR-070R56L/1037110</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR" value="YAGEO"/>
+      <property name="MPN" value="RL0603FR-070R56L"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="311-.56QCT-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/yageo/RL0603FR-070R56L/1037110"/>
+      <property name="Description" value="RES 0.56 OHM 1% 1/10W 0603"/>
+      <property name="Digi-Key_PN" value="311-.56QCT-ND"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db47d005-4977-4291-ab26-92e303040a78</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST_KMR2</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <datasheet>https://www.ckswitches.com/media/1479/kmr2.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 32V</field>
+        <field name="Digi-Key_PN">401-1427-1-ND</field>
+        <field name="MFR">C&amp;K</field>
+        <field name="MPN">KMR221GLFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="SPN">401-1427-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/c-k/KMR221GLFS/550472</field>
+      </fields>
+      <libsource lib="t962-rescue" part="SW_SPST_KMR2-switch_tact_smt" description=""/>
+      <property name="MFR" value="C&amp;K"/>
+      <property name="MPN" value="KMR221GLFS"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="401-1427-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/c-k/KMR221GLFS/550472"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.05A 32V"/>
+      <property name="Digi-Key_PN" value="401-1427-1-ND"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bfc5790</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST_KMR2</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <datasheet>https://www.ckswitches.com/media/1479/kmr2.pdf</datasheet>
+      <fields>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 32V</field>
+        <field name="Digi-Key_PN">401-1427-1-ND</field>
+        <field name="MFR">C&amp;K</field>
+        <field name="MPN">KMR221GLFS</field>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="SPN">401-1427-1-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/c-k/KMR221GLFS/550472</field>
+      </fields>
+      <libsource lib="t962-rescue" part="SW_SPST_KMR2-switch_tact_smt" description=""/>
+      <property name="MFR" value="C&amp;K"/>
+      <property name="MPN" value="KMR221GLFS"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="401-1427-1-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/c-k/KMR221GLFS/550472"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.05A 32V"/>
+      <property name="Digi-Key_PN" value="401-1427-1-ND"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005bfc5ad8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
+      <fields>
+        <field name="Description">IC CONV THRMCPLE-DIG K TYPE TDFN</field>
+        <field name="Digi-Key_PN">MAX31850KATB+-ND</field>
+        <field name="MFR">Maxim</field>
+        <field name="MPN">MAX31850KATB+</field>
+        <field name="Manufacturer">Maxim</field>
+        <field name="SPN">MAX31850KATB+-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056</field>
+      </fields>
+      <libsource lib="Aaron" part="MAX31850KATB+" description="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="MFR" value="Maxim"/>
+      <property name="MPN" value="MAX31850KATB+"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="MAX31850KATB+-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056"/>
+      <property name="Description" value="IC CONV THRMCPLE-DIG K TYPE TDFN"/>
+      <property name="Digi-Key_PN" value="MAX31850KATB+-ND"/>
+      <property name="Manufacturer" value="Maxim"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="ki_keywords" value="MAX31850"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005befc8d3</tstamps>
     </comp>
     <comp ref="U2">
       <value>LD1117S33CTR</value>
@@ -586,68 +1210,148 @@
         <field name="SPURL">/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241</field>
         <field name="Status">Active</field>
       </fields>
-      <libsource lib="dk_PMIC-Voltage-Regulators-Linear" part="LD1117S33CTR" description="IC REG LINEAR 3.3V 800MA SOT223"/>
+      <libsource lib="t962-rescue" part="LD1117S33CTR-dk_PMIC-Voltage-Regulators-Linear" description=""/>
+      <property name="MFR" value="STMicroelectronics"/>
+      <property name="MPN" value="LD1117S33CTR"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="497-1241-1-ND"/>
+      <property name="SPURL" value="/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241"/>
+      <property name="Digi-Key_PN" value="497-1241-1-ND"/>
+      <property name="Category" value="Integrated Circuits (ICs)"/>
+      <property name="Family" value="PMIC - Voltage Regulators - Linear"/>
+      <property name="DK_Datasheet_Link" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/stmicroelectronics/LD1117S33CTR/497-1241-1-ND/586241"/>
+      <property name="Description" value="IC REG LINEAR 3.3V 800MA SOT223"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C1387CB</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005c1387cb</tstamps>
     </comp>
-    <comp ref="J4">
-      <value>Conn_01x02_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
+    <comp ref="U3">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
       <fields>
-        <field name="MFR">-</field>
-        <field name="MPN">-</field>
-        <field name="SPN">-</field>
-        <field name="SPR">-</field>
-        <field name="SPURL">-</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C14CFE9</tstamp>
-    </comp>
-    <comp ref="J6">
-      <value>JST XH-B02B-XH-AM</value>
-      <footprint>Connector_JST:JST_XH_B02B-XH-AM_1x02_P2.50mm_Vertical</footprint>
-      <datasheet>http://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
-      <fields>
-        <field name="MFR">JST</field>
-        <field name="MPN">B2B-XH-A(LF)(SN)</field>
-        <field name="SPN">455-2247-ND</field>
+        <field name="Description">IC CONV THRMCPLE-DIG K TYPE TDFN</field>
+        <field name="Digi-Key_PN">MAX31850KATB+-ND</field>
+        <field name="MFR">Maxim</field>
+        <field name="MPN">MAX31850KATB+</field>
+        <field name="Manufacturer">Maxim</field>
+        <field name="SPN">MAX31850KATB+-ND</field>
         <field name="SPR">Digikey</field>
-        <field name="SPURL">-</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Aaron" part="MAX31850KATB+" description="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="MFR" value="Maxim"/>
+      <property name="MPN" value="MAX31850KATB+"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="MAX31850KATB+-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056"/>
+      <property name="Description" value="IC CONV THRMCPLE-DIG K TYPE TDFN"/>
+      <property name="Digi-Key_PN" value="MAX31850KATB+-ND"/>
+      <property name="Manufacturer" value="Maxim"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="ki_keywords" value="MAX31850"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C085CBE</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005befdcdd</tstamps>
     </comp>
-    <comp ref="J9">
-      <value>Conn_01x03_Male</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+    <comp ref="U4">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
+      <fields>
+        <field name="Description">IC CONV THRMCPLE-DIG K TYPE TDFN</field>
+        <field name="Digi-Key_PN">MAX31850KATB+-ND</field>
+        <field name="MFR">Maxim</field>
+        <field name="MPN">MAX31850KATB+</field>
+        <field name="Manufacturer">Maxim</field>
+        <field name="SPN">MAX31850KATB+-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056</field>
+      </fields>
+      <libsource lib="Aaron" part="MAX31850KATB+" description="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="MFR" value="Maxim"/>
+      <property name="MPN" value="MAX31850KATB+"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="MAX31850KATB+-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056"/>
+      <property name="Description" value="IC CONV THRMCPLE-DIG K TYPE TDFN"/>
+      <property name="Digi-Key_PN" value="MAX31850KATB+-ND"/>
+      <property name="Manufacturer" value="Maxim"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="ki_keywords" value="MAX31850"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA04CCC</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005befe4a1</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MAX31850KATB+</value>
+      <footprint>Aaron:TDFN-10_3x4mm_P0.5mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</datasheet>
+      <fields>
+        <field name="Description">IC CONV THRMCPLE-DIG K TYPE TDFN</field>
+        <field name="Digi-Key_PN">MAX31850KATB+-ND</field>
+        <field name="MFR">Maxim</field>
+        <field name="MPN">MAX31850KATB+</field>
+        <field name="Manufacturer">Maxim</field>
+        <field name="SPN">MAX31850KATB+-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056</field>
+      </fields>
+      <libsource lib="Aaron" part="MAX31850KATB+" description="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="MFR" value="Maxim"/>
+      <property name="MPN" value="MAX31850KATB+"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPN" value="MAX31850KATB+-ND"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX31850KATB/3976056"/>
+      <property name="Description" value="IC CONV THRMCPLE-DIG K TYPE TDFN"/>
+      <property name="Digi-Key_PN" value="MAX31850KATB+-ND"/>
+      <property name="Manufacturer" value="Maxim"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter"/>
+      <property name="ki_keywords" value="MAX31850"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005beff20b</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>CP2104</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</datasheet>
+      <fields>
+        <field name="Description">USB Bridge, USB to UART USB 2.0 UART Interface 24-QFN (4x4)</field>
+        <field name="Digi-Key_PN">336-2008-5-ND</field>
+        <field name="MFR">Silicon Labs</field>
+        <field name="MPN">CP2104-F03-GM</field>
+        <field name="Manufacturer">Silicon Labs</field>
+        <field name="SPN">336-2008-5-ND</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPURL">https://www.digikey.com/en/products/detail/silicon-labs/CP2104-F03-GM/2486177</field>
+      </fields>
+      <libsource lib="Interface_USB" part="CP2104" description="Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN-24"/>
+      <property name="Description" value="USB Bridge, USB to UART USB 2.0 UART Interface 24-QFN (4x4)"/>
+      <property name="Digi-Key_PN" value="336-2008-5-ND"/>
+      <property name="MFR" value="Silicon Labs"/>
+      <property name="MPN" value="CP2104-F03-GM"/>
+      <property name="SPN" value="336-2008-5-ND"/>
+      <property name="SPR" value="Digikey"/>
+      <property name="SPURL" value="https://www.digikey.com/en/products/detail/silicon-labs/CP2104-F03-GM/2486177"/>
+      <property name="Manufacturer" value="Silicon Labs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.sch"/>
+      <property name="ki_description" value="Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN-24"/>
+      <property name="ki_keywords" value="uart usb bridge interface transceiver"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bea860f9-3454-456f-8df3-6b1d2bd1b76c</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Aaron" part="MAX31850">
-      <aliases>
-        <alias>MAX31851</alias>
-        <alias>MAX31850KATB+</alias>
-        <alias>MAX31850KATB+T</alias>
-        <alias>MAX31850JATB+</alias>
-        <alias>MAX31850JATB+T</alias>
-        <alias>MAX31850NATB+</alias>
-        <alias>MAX31850NATB+T</alias>
-        <alias>MAX31850TATB+</alias>
-        <alias>MAX31850TATB+T</alias>
-        <alias>MAX31850EATB+</alias>
-        <alias>MAX31850EATB+T</alias>
-        <alias>MAX31851SATB+</alias>
-        <alias>MAX31851SATB+T</alias>
-        <alias>MAX31851RATB+</alias>
-        <alias>MAX31851RATB+T</alias>
-      </aliases>
+    <libpart lib="Aaron" part="MAX31850KATB+">
       <description>Cold-Junction Compensated 1-Wire Thermocouple-to-Digital Converter</description>
       <docs>https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</docs>
       <footprints>
@@ -655,14 +1359,15 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">MAX31850</field>
+        <field name="Value">MAX31850KATB+</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX31850-MAX31851.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
         <pin num="2" name="T-" type="power_in"/>
         <pin num="3" name="T+" type="power_in"/>
         <pin num="4" name="VDD" type="power_in"/>
-        <pin num="5" name="DQ" type="BiDi"/>
+        <pin num="5" name="DQ" type="bidirectional"/>
         <pin num="6" name="AD0" type="input"/>
         <pin num="7" name="AD1" type="input"/>
         <pin num="8" name="AD2" type="input"/>
@@ -679,6 +1384,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -694,6 +1400,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -701,26 +1408,35 @@
         <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="USB_B_Micro">
-      <aliases>
-        <alias>USB_B_Mini</alias>
-      </aliases>
-      <description>USB Micro Type B connector</description>
-      <docs>~</docs>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
       <footprints>
-        <fp>USB*</fp>
+        <fp>USB*C*Receptacle*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">USB_B_Micro</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
       </fields>
       <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-" type="passive"/>
-        <pin num="3" name="D+" type="passive"/>
-        <pin num="4" name="ID" type="passive"/>
-        <pin num="5" name="GND" type="power_out"/>
-        <pin num="6" name="Shield" type="passive"/>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x03">
@@ -732,6 +1448,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -748,6 +1465,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -765,6 +1483,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -783,6 +1502,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -804,10 +1524,29 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R">
@@ -819,10 +1558,51 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="CP2104">
+      <description>Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN-24</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2104</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RI}" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="D-" type="bidirectional"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~{RST}" type="bidirectional"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GPIO.3" type="bidirectional"/>
+        <pin num="12" name="RS485/GPIO.2" type="bidirectional"/>
+        <pin num="13" name="RXT/GPIO.1" type="bidirectional"/>
+        <pin num="14" name="TXT/GPIO.0" type="bidirectional"/>
+        <pin num="15" name="~{SUSPEND}" type="output"/>
+        <pin num="16" name="VPP" type="passive"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="~{CTS}" type="input"/>
+        <pin num="19" name="~{RTS}" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="~{DSR}" type="input"/>
+        <pin num="23" name="~{DTR}" type="output"/>
+        <pin num="24" name="~{DCD}" type="input"/>
+        <pin num="25" name="GND" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
@@ -834,6 +1614,7 @@
       <fields>
         <field name="Reference">H</field>
         <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="input"/>
@@ -849,6 +1630,7 @@
         <field name="Reference">Q</field>
         <field name="Value">BSS214NW</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="input"/>
@@ -856,43 +1638,11 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="cp2102n-a01-qfn24" part="CP2102N-A01-QFN24">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">CP2102N-A01-QFN24</field>
-      </fields>
-      <pins>
-        <pin num="1" name="RI/CLK" type="output"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="D+" type="input"/>
-        <pin num="4" name="D-" type="input"/>
-        <pin num="5" name="VIO" type="power_in"/>
-        <pin num="6" name="VDD" type="power_out"/>
-        <pin num="7" name="REGIN" type="power_in"/>
-        <pin num="8" name="VBUS" type="input"/>
-        <pin num="9" name="~RSTb" type="input"/>
-        <pin num="11" name="GPIO.3" type="BiDi"/>
-        <pin num="12" name="GPIO.2" type="BiDi"/>
-        <pin num="13" name="GPIO.1" type="BiDi"/>
-        <pin num="14" name="GPIO.0" type="BiDi"/>
-        <pin num="15" name="~SUSPENDb" type="output"/>
-        <pin num="17" name="SUSPEND" type="output"/>
-        <pin num="18" name="CTS" type="output"/>
-        <pin num="19" name="RTS" type="output"/>
-        <pin num="20" name="RXD" type="input"/>
-        <pin num="21" name="TXD" type="output"/>
-        <pin num="22" name="DSR" type="input"/>
-        <pin num="23" name="DTR" type="output"/>
-        <pin num="24" name="DCD" type="input"/>
-        <pin num="25" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="dk_PMIC-Voltage-Regulators-Linear" part="LD1117S33CTR">
-      <description>IC REG LINEAR 3.3V 800MA SOT223</description>
+    <libpart lib="t962-rescue" part="LD1117S33CTR-dk_PMIC-Voltage-Regulators-Linear">
       <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</docs>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LD1117S33CTR</field>
+        <field name="Value">dk_PMIC-Voltage-Regulators-Linear_LD1117S33CTR</field>
         <field name="Footprint">digikey-footprints:SOT-223</field>
         <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf</field>
         <field name="Digi-Key_PN">497-1241-1-ND</field>
@@ -912,12 +1662,24 @@
         <pin num="4" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="dk_TVS-Diodes" part="USBLC6-2SC6">
-      <description>TVS DIODE 5.25V 17V SOT23-6</description>
+    <libpart lib="t962-rescue" part="SW_SPST_KMR2-switch_tact_smt">
+      <footprints>
+        <fp>aaron:SW_SPST_KMR2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">switch_tact_smt_SW_SPST_KMR2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="t962-rescue" part="USBLC6-2SC6-dk_TVS-Diodes">
       <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</docs>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">USBLC6-2SC6</field>
+        <field name="Value">dk_TVS-Diodes_USBLC6-2SC6</field>
         <field name="Footprint">digikey-footprints:SOT23-6L</field>
         <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf</field>
         <field name="Digi-Key_PN">497-5235-1-ND</field>
@@ -931,294 +1693,313 @@
         <field name="Status">Active</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="power_in"/>
-        <pin num="3" name="~" type="input"/>
-        <pin num="4" name="~" type="input"/>
-        <pin num="5" name="~" type="output"/>
-        <pin num="6" name="~" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="switch_tact_smt" part="SW_SPST_KMR2">
-      <description>SPST SMD  KMR2 SMD micro button</description>
-      <footprints>
-        <fp>aaron:SW_SPST_KMR2</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_SPST_KMR2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P" type="passive"/>
-        <pin num="2" name="S" type="passive"/>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="power_in"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="output"/>
+        <pin num="6" name="" type="input"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Aaron">
-      <uri>/home/aaronw/kicad/library/aaron/Aaron.lib</uri>
+      <uri>/home/aaronw/kicad/library/aaron/Aaron.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>/usr/share/kicad/library/Connector.lib</uri>
+      <uri>/home/aaronw/.local/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+      <uri>/home/aaronw/.local/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/usr/share/kicad/library/Device.lib</uri>
+      <uri>/home/aaronw/.local/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>/home/aaronw/.local/share/kicad/symbols//Interface_USB.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+      <uri>/home/aaronw/.local/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
-      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+      <uri>/home/aaronw/.local/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
     </library>
-    <library logical="cp2102n-a01-qfn24">
-      <uri>/home/aaronw/kicad/library/aaron/cp2102n-a01-qfn24.lib</uri>
-    </library>
-    <library logical="dk_PMIC-Voltage-Regulators-Linear">
-      <uri>/home/aaronw/kicad/library/digikey/digikey-kicad-library/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib</uri>
-    </library>
-    <library logical="dk_TVS-Diodes">
-      <uri>/home/aaronw/kicad/library/digikey/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib</uri>
-    </library>
-    <library logical="switch_tact_smt">
-      <uri>/home/aaronw/kicad/library/aaron/switch_tact_smt.lib</uri>
+    <library logical="t962-rescue">
+      <uri>/home/aaronw/kicad/Projects/T-962-Temp-Fan/t962-rescue.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/FAN_PWM">
-      <node ref="Q1" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="R2" pin="2"/>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U2" pin="4" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U3" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="AD0" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="AD1" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="AD0" pintype="input"/>
+      <node ref="U6" pin="7" pinfunction="AD1" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="VIO" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="7" pinfunction="REGIN" pintype="power_in"/>
     </net>
-    <net code="2" name="+3V3">
-      <node ref="U6" pin="6"/>
-      <node ref="U6" pin="7"/>
-      <node ref="J4" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U3" pin="6"/>
-      <node ref="U4" pin="4"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U5" pin="7"/>
-      <node ref="U5" pin="6"/>
-      <node ref="U5" pin="5"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="U6" pin="4"/>
-      <node ref="R2" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U3" pin="4"/>
-      <node ref="C1" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U4" pin="7"/>
+    <net code="2" name="+5V">
+      <node ref="D1" pin="5" pintype="output"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J8" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J8" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J8" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="3" name="/P_D-">
-      <node ref="D1" pin="4"/>
-      <node ref="U5" pin="4"/>
+    <net code="3" name="+12V">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="4" name="/T2+">
-      <node ref="J2" pin="3"/>
-      <node ref="C11" pin="1"/>
-      <node ref="U4" pin="3"/>
+    <net code="4" name="/CC1">
+      <node ref="J8" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="5" name="/T2-">
-      <node ref="C11" pin="2"/>
-      <node ref="J2" pin="4"/>
-      <node ref="U4" pin="2"/>
+    <net code="5" name="/CC2">
+      <node ref="J8" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="/T1+">
-      <node ref="C5" pin="1"/>
-      <node ref="J2" pin="5"/>
-      <node ref="U3" pin="3"/>
+    <net code="6" name="/D+">
+      <node ref="D1" pin="1" pintype="input"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J8" pin="B6" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/T1-">
-      <node ref="C5" pin="2"/>
-      <node ref="J2" pin="6"/>
-      <node ref="U3" pin="2"/>
+    <net code="7" name="/D-">
+      <node ref="D1" pin="3" pintype="input"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J8" pin="B7" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/T0+">
-      <node ref="U1" pin="3"/>
-      <node ref="J2" pin="7"/>
-      <node ref="C2" pin="1"/>
+    <net code="8" name="/DQ">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="DQ" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="DQ" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="DQ" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="DQ" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/T0-">
-      <node ref="C2" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="J2" pin="8"/>
+    <net code="9" name="/FAN_PWM">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="10" name="/T3+">
-      <node ref="U6" pin="3"/>
-      <node ref="C13" pin="1"/>
-      <node ref="J2" pin="1"/>
+    <net code="10" name="/FAN_PWM_OUT">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="11" name="/T3-">
-      <node ref="C13" pin="2"/>
-      <node ref="U6" pin="2"/>
-      <node ref="J2" pin="2"/>
+    <net code="11" name="/N_ISP">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="P" pintype="passive"/>
     </net>
-    <net code="12" name="/FAN_PWM_OUT">
-      <node ref="Q1" pin="3"/>
-      <node ref="J5" pin="1"/>
+    <net code="12" name="/N_RST">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="P" pintype="passive"/>
     </net>
-    <net code="13" name="/RXD0">
-      <node ref="U5" pin="21"/>
-      <node ref="J7" pin="4"/>
+    <net code="13" name="/P_D+">
+      <node ref="D1" pin="6" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/TXD0">
-      <node ref="J7" pin="3"/>
-      <node ref="U5" pin="20"/>
+    <net code="14" name="/P_D-">
+      <node ref="D1" pin="4" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/DQ">
-      <node ref="J1" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="U3" pin="5"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U6" pin="5"/>
-      <node ref="U1" pin="5"/>
+    <net code="15" name="/RXD0">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U7" pin="20" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="16" name="GND">
-      <node ref="U4" pin="1"/>
-      <node ref="U4" pin="11"/>
-      <node ref="U1" pin="6"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U1" pin="11"/>
-      <node ref="U1" pin="9"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U4" pin="9"/>
-      <node ref="U4" pin="8"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="U4" pin="6"/>
-      <node ref="U3" pin="11"/>
-      <node ref="U3" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="H4" pin="1"/>
-      <node ref="H3" pin="1"/>
-      <node ref="U5" pin="25"/>
-      <node ref="U5" pin="2"/>
-      <node ref="J4" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="J7" pin="5"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="J8" pin="6"/>
-      <node ref="C4" pin="1"/>
-      <node ref="U3" pin="9"/>
-      <node ref="U3" pin="8"/>
-      <node ref="U3" pin="7"/>
-      <node ref="H1" pin="1"/>
-      <node ref="R5" pin="2"/>
-      <node ref="H2" pin="1"/>
-      <node ref="J10" pin="1"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="J8" pin="5"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="J6" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J9" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C12" pin="1"/>
-      <node ref="U6" pin="9"/>
-      <node ref="U6" pin="8"/>
-      <node ref="U6" pin="11"/>
-      <node ref="U6" pin="1"/>
+    <net code="16" name="/RX_LED">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="RXT/GPIO.1" pintype="bidirectional"/>
     </net>
-    <net code="17" name="+12V">
-      <node ref="J6" pin="2"/>
-      <node ref="U2" pin="3"/>
-      <node ref="J5" pin="2"/>
-      <node ref="J3" pin="2"/>
+    <net code="17" name="/T0+">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="T+" pintype="power_in"/>
     </net>
-    <net code="18" name="/N_RST">
-      <node ref="J9" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="J7" pin="2"/>
+    <net code="18" name="/T0-">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="T-" pintype="power_in"/>
     </net>
-    <net code="19" name="/N_ISP">
-      <node ref="SW1" pin="1"/>
-      <node ref="J9" pin="3"/>
-      <node ref="J7" pin="1"/>
-      <node ref="SW1" pin="1"/>
+    <net code="19" name="/T1+">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="T+" pintype="power_in"/>
     </net>
-    <net code="20" name="Net-(U5-Pad13)">
-      <node ref="U5" pin="13"/>
+    <net code="20" name="/T1-">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="T-" pintype="power_in"/>
     </net>
-    <net code="21" name="Net-(J8-Pad4)">
-      <node ref="J8" pin="4"/>
+    <net code="21" name="/T2+">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="T+" pintype="power_in"/>
     </net>
-    <net code="22" name="Net-(U5-Pad14)">
-      <node ref="U5" pin="14"/>
+    <net code="22" name="/T2-">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="T-" pintype="power_in"/>
     </net>
-    <net code="23" name="Net-(U5-Pad12)">
-      <node ref="U5" pin="12"/>
+    <net code="23" name="/T3+">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="T+" pintype="power_in"/>
     </net>
-    <net code="24" name="Net-(U5-Pad11)">
-      <node ref="U5" pin="11"/>
+    <net code="24" name="/T3-">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="T-" pintype="power_in"/>
     </net>
-    <net code="25" name="Net-(U5-Pad1)">
-      <node ref="U5" pin="1"/>
+    <net code="25" name="/TXD0">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U7" pin="21" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="26" name="Net-(U5-Pad18)">
-      <node ref="U5" pin="18"/>
+    <net code="26" name="/TX_LED">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="TXT/GPIO.0" pintype="bidirectional"/>
     </net>
-    <net code="27" name="Net-(U5-Pad19)">
-      <node ref="U5" pin="19"/>
+    <net code="27" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="power_in"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="AD0" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="AD1" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="AD2" pintype="input"/>
+      <node ref="U1" pin="9" pinfunction="AD3" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="AD1" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="AD2" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="AD3" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="AD0" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="AD2" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="AD3" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="AD2" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="AD3" pintype="input"/>
+      <node ref="U7" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="25" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(U5-Pad24)">
-      <node ref="U5" pin="24"/>
+    <net code="28" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(U5-Pad23)">
-      <node ref="U5" pin="23"/>
+    <net code="29" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(U5-Pad22)">
-      <node ref="U5" pin="22"/>
+    <net code="30" name="Net-(U7-VBUS)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="VBUS" pintype="input"/>
     </net>
-    <net code="31" name="Net-(U5-Pad15)">
-      <node ref="U5" pin="15"/>
+    <net code="31" name="Net-(U7-VPP)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U7" pin="16" pinfunction="VPP" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(U5-Pad17)">
-      <node ref="U5" pin="17"/>
+    <net code="32" name="Net-(U7-~{RST})">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="~{RST}" pintype="bidirectional"/>
     </net>
-    <net code="33" name="Net-(R4-Pad2)">
-      <node ref="U5" pin="8"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R4" pin="2"/>
+    <net code="33" name="unconnected-(J8-SBU1-PadA8)">
+      <node ref="J8" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="34" name="/P_D+">
-      <node ref="U5" pin="3"/>
-      <node ref="D1" pin="6"/>
+    <net code="34" name="unconnected-(J8-SBU2-PadB8)">
+      <node ref="J8" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="35" name="/D-">
-      <node ref="J10" pin="3"/>
-      <node ref="D1" pin="3"/>
-      <node ref="J8" pin="2"/>
+    <net code="35" name="unconnected-(J8-SHIELD-PadS1)">
+      <node ref="J8" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="36" name="/D+">
-      <node ref="J8" pin="3"/>
-      <node ref="D1" pin="1"/>
-      <node ref="J10" pin="2"/>
+    <net code="36" name="unconnected-(U7-GPIO.3-Pad11)">
+      <node ref="U7" pin="11" pinfunction="GPIO.3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="Net-(R3-Pad2)">
-      <node ref="U5" pin="9"/>
-      <node ref="R3" pin="2"/>
+    <net code="37" name="unconnected-(U7-NC-Pad10)">
+      <node ref="U7" pin="10" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="38" name="+5V">
-      <node ref="J8" pin="1"/>
-      <node ref="J10" pin="4"/>
-      <node ref="D1" pin="5"/>
-      <node ref="R4" pin="1"/>
+    <net code="38" name="unconnected-(U7-RS485{slash}GPIO.2-Pad12)">
+      <node ref="U7" pin="12" pinfunction="RS485/GPIO.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U7-SUSPEND-Pad17)">
+      <node ref="U7" pin="17" pinfunction="SUSPEND" pintype="output+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U7-~{CTS}-Pad18)">
+      <node ref="U7" pin="18" pinfunction="~{CTS}" pintype="input+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U7-~{DCD}-Pad24)">
+      <node ref="U7" pin="24" pinfunction="~{DCD}" pintype="input+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U7-~{DSR}-Pad22)">
+      <node ref="U7" pin="22" pinfunction="~{DSR}" pintype="input+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U7-~{DTR}-Pad23)">
+      <node ref="U7" pin="23" pinfunction="~{DTR}" pintype="output+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U7-~{RI}-Pad1)">
+      <node ref="U7" pin="1" pinfunction="~{RI}" pintype="input+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U7-~{RTS}-Pad19)">
+      <node ref="U7" pin="19" pinfunction="~{RTS}" pintype="output+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U7-~{SUSPEND}-Pad15)">
+      <node ref="U7" pin="15" pinfunction="~{SUSPEND}" pintype="output+no_connect"/>
     </net>
   </nets>
 </export>

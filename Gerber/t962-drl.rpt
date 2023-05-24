@@ -1,5 +1,5 @@
-Drill report for /home/aaronw/kicad/Projects/T-962-Temp-Fan/t962.kicad_pcb
-Created on Fri 08 Feb 2019 10:24:19 PM PST
+Drill report for t962.kicad_pcb
+Created on Wed 24 May 2023 02:24:59 AM PDT
 
 Copper Layer Stackup:
     =============================================================
@@ -7,22 +7,22 @@ Copper Layer Stackup:
     L2 :  B.Cu                      back
 
 
-Drill file 't962.drl' contains
+Drill file 't962-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (52 holes)
-    T2  0.60mm  0.024"  (2 holes)  (with 2 slots)
-    T3  0.85mm  0.033"  (2 holes)
-    T4  1.00mm  0.039"  (20 holes)
-    T5  1.10mm  0.043"  (8 holes)
-    T6  3.00mm  0.118"  (4 holes)
+    T1  0.300mm  0.0118"  (106 holes)
+    T2  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T3  1.000mm  0.0394"  (23 holes)
+    T4  1.100mm  0.0433"  (8 holes)
+    T5  3.000mm  0.1181"  (4 holes)
 
-    Total plated holes count 88
+    Total plated holes count 145
 
 
-Not plated through holes are merged with plated holes
+Drill file 't962-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T7  1.20mm  0.047"  (3 holes)
+    T1  0.650mm  0.0256"  (2 holes)
+    T2  1.200mm  0.0472"  (3 holes)
 
-    Total unplated holes count 3
+    Total unplated holes count 5
